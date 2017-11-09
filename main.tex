@@ -1,0 +1,39 @@
+\documentclass[a4paper,12pt,oneside]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage[italian]{babel}
+\usepackage[a4paper,top=25mm,bottom=25mm,bindingoffset=6mm,hmargin={3.5cm,3cm}]{geometry}
+
+\begin{document}
+	
+	\begin{titlepage}
+    \input{Capitoli/Front}
+    \end{titlepage}
+
+  
+    \input{Capitoli/dedication}
+    
+    \pagenumbering{gobble}  
+    \pagenumbering{Roman}
+    
+    \chapter*{Abstract}
+    \input{Capitoli/abstract.tex}
+    
+    \newpage  
+    \pagenumbering{arabic}
+    
+    \tableofcontents{}
+    
+    \chapter{Introduzione}
+    \input{Capitoli/Capitolo1}
+    
+    \chapter{Approfondimento}
+    \input{Capitoli/Capitolo1}
+    
+
+    
+    \bibliography{bibliografia} 
+    \bibliographystyle{ieeetr}
+   
+    
+\end{document}
