@@ -1,38 +1,37 @@
-\documentclass[a4paper,12pt,oneside]{report}
-\usepackage[utf8]{inputenc}
-\usepackage{graphicx}
-\usepackage[italian]{babel}
-\usepackage[a4paper,top=25mm,bottom=25mm,bindingoffset=6mm,hmargin={3.5cm,3cm}]{geometry}
-\usepackage{setspace}
-\doublespacing
+\documentclass[12pt,onesidet]{report}
+
+\usepackage{import}
+\import{./}{Preambolo.tex}
 
 \begin{document}
 	
 	\begin{titlepage}
-    \input{Capitoli/Front}
+     \import{Capitoli/}{Front.tex}
     \end{titlepage}
 
   
-    \input{Capitoli/dedication}
+    \import{Capitoli/}{Dedication.tex}
     
     \pagenumbering{gobble}  
     \pagenumbering{Roman}
     
     \chapter*{Abstract}
-    \input{Capitoli/abstract.tex}
+     \import{Capitoli/}{Abstract.tex}
     
     \newpage  
     \pagenumbering{arabic}
     
     \tableofcontents{}
+    \listoftables
+    \listoflistings
+    
     
     \chapter{Introduzione}
-    \input{Capitoli/Capitolo1}
+     \import{Capitoli/Introduzione/}{Introduzione.tex}
     
-    \chapter{Approfondimento}
-    \input{Capitoli/Capitolo1}
+    \chapter{Stato dell'arte}
+    \import{Capitoli/StatoDellArte/}{StatoDellArte}
     
-
     
     \bibliography{bibliografia} 
     \bibliographystyle{ieeetr}
