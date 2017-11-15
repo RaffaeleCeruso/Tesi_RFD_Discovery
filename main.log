@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.9)  15 NOV 2017 14:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.9)  15 NOV 2017 15:16
 entering extended mode
 **./main.tex
 (main.tex
@@ -918,10 +918,6 @@ Capitolo 1.
 (Capitoli/Introduzione/Sezioni/NozioniPreliminari.tex [4
 
 ] [5]
-
-LaTeX Warning: Citation `libroCeri' on page 6 undefined on input line 15.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 5--17
 
  []
@@ -968,10 +964,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--96
  []
 
 [9] [10]
-
-LaTeX Warning: Citation `libroCeri' on page 11 undefined on input line 105.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 97--106
 
  []
@@ -981,45 +973,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 97--106
 
  []
 
-[11] [12]) (Capitoli/Introduzione/Sezioni/StudiPreliminari.tex)) [13]
+[11] [12]) (Capitoli/Introduzione/Sezioni/StudiPreliminari.tex
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 6.
+ [13])) [14]
 Capitolo 2.
-(Capitoli/StatoDellArte/StatoDellArte.tex) (main.bbl [14
+(Capitoli/StatoDellArte/StatoDellArte.tex) (main.bbl [15
 
-]
+]) [16
 
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
-
-) [15
-
-] (main.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 9186 strings out of 493323
- 150488 string characters out of 3139066
- 293721 words of memory out of 3000000
- 12490 multiletter control sequences out of 15000+200000
- 13076 words of font info for 50 fonts, out of 3000000 for 9000
+ 9190 strings out of 493323
+ 150536 string characters out of 3139066
+ 293729 words of memory out of 3000000
+ 12493 multiletter control sequences out of 15000+200000
+ 13435 words of font info for 51 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,13n,53p,887b,277s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (20 pages, 294941 bytes).
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx1
+2.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+r7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (21 pages, 310553 bytes).
 PDF statistics:
- 126 PDF objects out of 1000 (max. 8388607)
+ 133 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

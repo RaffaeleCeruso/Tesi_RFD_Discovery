@@ -1,3 +1,12 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+
+\bibitem{libroCeri}
+F.~P. P. S. T.~R. Atzeni~P., Ceri~S., {\em Basi di dati: Modelli e linguaggi di
+  programmazione}.
+\newblock McGraw Hill, 2013.
+
+\bibitem{tesinaIA}
+T.~M. Altamura~A., Di Pasquale~D., ``Relaxed functional dependencies
+  discovery,'' {\em Unisa}, 2017.
 
 \end{thebibliography}

@@ -9,4 +9,4 @@
 \contentsline {subsection}{\numberline {1.2.4}Scoperta RFD}{12}
 \contentsline {subsection}{\numberline {1.2.5}Dominanza}{13}
 \contentsline {section}{\numberline {1.3}Studi preliminari}{13}
-\contentsline {chapter}{\numberline {2}Stato dell'arte}{14}
+\contentsline {chapter}{\numberline {2}Stato dell'arte}{15}
