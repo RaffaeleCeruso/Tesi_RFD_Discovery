@@ -1,0 +1,12 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{//Gestione last steps e risposta al mittente}
+\PYG{k}{return} \PYG{n}{receiveBuilder}\PYG{o}{()}
+   \PYG{o}{.}\PYG{n+na}{match}\PYG{o}{(}\PYG{n}{CreateLastSteps}\PYG{o}{.}\PYG{n+na}{class}\PYG{o}{,} \PYG{n}{lsps}\PYG{o}{\PYGZhy{}\PYGZgt{}}
+   \PYG{o}{\PYGZob{}}
+      \PYG{k}{this}\PYG{o}{.}\PYG{n+na}{getSender}\PYG{o}{().}\PYG{n+na}{tell}\PYG{o}{(}\PYG{k}{new} \PYG{n}{MainActor}
+        \PYG{o}{.}\PYG{n+na}{ReceiveLastSteps}\PYG{o}{(}\PYG{n}{MinimalityAndGenerationRFD}
+          \PYG{o}{.}\PYG{n+na}{startMinimalityAndGeneration}
+            \PYG{o}{(}\PYG{n}{lsps}\PYG{o}{.}\PYG{n+na}{allC}\PYG{o}{,}\PYG{n}{lsps}\PYG{o}{.}\PYG{n+na}{colonne}\PYG{o}{,}\PYG{n}{lsps}\PYG{o}{.}\PYG{n+na}{orderedDM}\PYG{o}{,}\PYG{n}{lsps}\PYG{o}{.}\PYG{n+na}{dM}\PYG{o}{),}
+                       \PYG{n}{lsps}\PYG{o}{.}\PYG{n+na}{orderedDM}\PYG{o}{.}\PYG{n+na}{getRhs}\PYG{o}{()),}\PYG{k}{this}\PYG{o}{.}\PYG{n+na}{getSelf}\PYG{o}{());}
+   \PYG{o}{\PYGZcb{}).}\PYG{n+na}{build}\PYG{o}{();}
+\end{Verbatim}

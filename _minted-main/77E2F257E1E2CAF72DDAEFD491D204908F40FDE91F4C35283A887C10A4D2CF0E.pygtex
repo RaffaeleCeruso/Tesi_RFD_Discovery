@@ -1,0 +1,12 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cm}{/**}
+\PYG{c+cm}{ * Metodo che permette di calcolare l\PYGZsq{}insieme c}
+\PYG{c+cm}{ * dell\PYGZsq{}orderedDM dato come parametro}
+\PYG{c+cm}{ * @param orderedDM}
+\PYG{c+cm}{ * @return hashMap contenente l\PYGZsq{}insieme c}
+\PYG{c+cm}{ */}
+\PYG{k+kd}{public} \PYG{k+kd}{static} \PYG{n}{Object2ObjectOpenHashMap}
+	                  \PYG{o}{\PYGZlt{}}\PYG{n}{String}\PYG{o}{,}\PYG{n}{ObjectArrayList}\PYG{o}{\PYGZlt{}}\PYG{n}{Tuple}\PYG{o}{\PYGZgt{}\PYGZgt{}}
+                             \PYG{n+nf}{feasibilityTest}\PYG{o}{(}\PYG{n}{OrderedDM} \PYG{n}{orderedDM}\PYG{o}{,}
+                                       \PYG{n}{DataFrame}\PYG{o}{\PYGZlt{}}\PYG{n}{Object}\PYG{o}{\PYGZgt{}} \PYG{n}{dmGenerale}\PYG{o}{)}
+\end{Verbatim}

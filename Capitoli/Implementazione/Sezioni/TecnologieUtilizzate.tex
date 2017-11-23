@@ -1,0 +1,27 @@
+\section{Tecnologie utilizzate}
+Al fine di testare l'algoritmo progettato, abbiamo sviluppato una applicazione scritta in Java.
+La scelta nell'utilizzare Java, come detto negli studi preliminari, è nata dalla necessità di ottenere maggiori prestazioni, dalla potenza del linguaggio e dal gran numero di librerie e framework utilizzabili al nostro scopo.
+Nella seguente sezione analizzeremo quelle che sono le librerie utilizzate per la realizzazione del seguente progetto.
+\subsection{AKKA}
+Akka è un insieme di strumenti per la realizzazione di applicazioni Java o Scala altamente concorrenti e distribuite. 
+La scelta di questo framework è stata fatta in seguito alla necessità di rendere l'algoritmo quanto più efficiente possibile. La soluzione migliore si è rivelata essere quella del multithreading. A questo punto si è pensato che una impostazione \emph{low level} dei thread fosse poco sicura, quindi ci siamo orientati verso l'utilizzo di un container che gestisse le operazioni fondamentali di coordinazione.
+Oltre alla coordinazione del multithreading \textbf{AKKA} ci offre la possibilità di creare una applicazione distribuita.
+Questo argomento è stato trattato in fase di studio preliminare e temporaneamente accantonato, ciò non toglie che l'utilizzo di questo framework renda l'applicazione predisposta alla distribuzione.
+AKKA ci offre un \emph{ambiente sicuro} su cui eseguire i nostri thread chiamato \textbf{Actor system}.
+L'Actor system è un container che prevede la gestione dei vari thread, chiamati \textbf{Actor}, garantendo servizi come la scalabilità della nostra applicazione, gestione della concorrenza e massime prestazioni.
+Per questa tecnologia si può fare riferimento alla documentazione ufficiale: \url{https://akka.io}
+\subsection{FastUtil}
+In fase di implementazione si è reso necessario un boost nelle prestazioni ed un uso efficiente della memoria da parte delle principali strutture dati utilizzate da Java.
+Per garantire questi servizi ci viene incontro una libreria chiamata \textbf{fastutil}.
+Questa libreria re-implementa le principali strutture di java garantendoci i servizi succitati.
+Le strutture sfruttate nella nostra applicazione sono:
+\begin{itemize}
+	\item \textbf{\emph{ObjectArrayList}}: Re-implementazione della classe ArrayList di Java.
+	\item \textbf{\emph{Object2ObjectHashMap}}: Re-implementazione della classe HashMap di Java.
+\end{itemize}
+\subsection{Joinery Dataframe}
+Il DataFrame di joinery è una struttura dati simile a dataframe presente nella libreria \emph{pandas} del linguaggio Python.
+Essa ci permette di memorizzare velocemente un \emph{dataset} ed effettuare operazioni su di esso come se fosse una semplice tabella.
+La scelta di questa libreria è stata fatta in seguito alla valutazione dei vantaggi che offrivano i vari metodi implementati da Joinery.
+Si sono mostrati essere molto vantaggiosi i metodi che garantiscono l'import di un dataset da file csv e la gestione diretta ai dati in esso contenuti.
+Si può fare riferimento a tale libreria sulla documentazione ufficiale: \url{https://cardillo.github.io/joinery/}.

@@ -1,0 +1,8 @@
+\section{Lavori futuri}
+Basandoci sull'esperienza acquisita durante la progettazione ed implementazione di questo algoritmo, vengono proposte di seguito alcune idee per migliorare quello che è il lavoro fino ad ora svolto.
+\paragraph{Miglioramento utilizzo memoria}
+Durante la fase di testing, si è notato che l'utilizzo della memoria in questo algoritmo genera molti problemi su alcuni dataset di grandi dimensioni. Questo è dovuto alla ricerca delle migliori performance, per garantire questo servizio vengono mantenute alcune strutture dati in memoria principale che in alcuni casi ne saturano la capacità. Già durante la fase di lavoro si è cercato di sopperire a questa problematica implementando una seconda versione dell'algoritmo. Tale re-implementazione si è basata sull'utilizzo di un database per il mantenimento della matrice delle distanze, separando così la fase di creazione della DM con le altre tre principali.
+Questa soluzione però è ancora in fase sperimentale. Lavori futuri saranno quelli di migliorare la gestione di tali database, essendo questi di enormi dimensioni, bisogna garantire un sistema di query efficiente.
+In alternativa potrebbero essere ricercate altre soluzioni per l'ottimizzazione della memoria.
+\paragraph{Distribuzione}
+Tutto il progetto è stato sviluppato basandosi sul concetto di parallelizzazione. Tale progettazione e l'utilizzo della tecnologia \emph{AKKA} rende l'algoritmo già pronto alla distribuzione. Questo tipo di miglioramento permetterebbe un incremento maggiore delle prestazioni su dataset di dimensioni notevoli.

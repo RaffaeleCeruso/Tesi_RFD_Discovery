@@ -1,14 +1,50 @@
 \select@language {italian}
 \select@language {italian}
-\contentsline {chapter}{\numberline {1}Introduzione}{4}
-\contentsline {section}{\numberline {1.1}Incipit}{4}
-\contentsline {section}{\numberline {1.2}Nozioni Preliminari}{6}
-\contentsline {subsection}{\numberline {1.2.1}Schema di relazione}{6}
-\contentsline {subsection}{\numberline {1.2.2}Dipendenze funzionali canoniche}{7}
-\contentsline {subsection}{\numberline {1.2.3}Dipendenze funzionali rilassate}{8}
-\contentsline {subsection}{\numberline {1.2.4}Scoperta RFD}{12}
-\contentsline {subsection}{\numberline {1.2.5}Dominanza}{13}
-\contentsline {section}{\numberline {1.3}Studi preliminari}{13}
-\contentsline {chapter}{\numberline {2}Stato dell'arte}{15}
-\contentsline {chapter}{\numberline {3}Algoritmo}{16}
-\contentsline {chapter}{\numberline {4}Implementazione}{17}
+\contentsline {chapter}{\numberline {1}Introduzione}{2}{chapter.1}
+\contentsline {section}{\numberline {1.1}Incipit}{2}{section.1.1}
+\contentsline {section}{\numberline {1.2}Nozioni Preliminari}{4}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Schema di relazione}{4}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Dipendenze funzionali canoniche}{5}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Dipendenze funzionali rilassate}{6}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.4}Scoperta RFD}{10}{subsection.1.2.4}
+\contentsline {subsection}{\numberline {1.2.5}Dominanza}{11}{subsection.1.2.5}
+\contentsline {section}{\numberline {1.3}Studi preliminari}{11}{section.1.3}
+\contentsline {chapter}{\numberline {2}Stato dell'arte}{13}{chapter.2}
+\contentsline {section}{\numberline {2.1}AFD Discovery}{14}{section.2.1}
+\contentsline {section}{\numberline {2.2}MD Discovery}{14}{section.2.2}
+\contentsline {section}{\numberline {2.3}DD Discovery}{15}{section.2.3}
+\contentsline {chapter}{\numberline {3}Algoritmo}{17}{chapter.3}
+\contentsline {section}{\numberline {3.1}Matrice delle distanze}{18}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Funzione di distanza}{18}{subsection.3.1.1}
+\contentsline {paragraph}{Distanza euclidea mono-dimensionale}{19}{subsection.3.1.1}
+\contentsline {paragraph}{Distanza di Levenshtein}{19}{equation.3.1.1}
+\contentsline {paragraph}{Distanza tra date}{19}{equation.3.1.2}
+\contentsline {subsection}{\numberline {3.1.2}Calcolo della matrice delle distanze}{20}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Feasibility}{21}{section.3.2}
+\contentsline {section}{\numberline {3.3}Minimality ed RFD Generation}{21}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Nozioni preliminari}{22}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Minimality}{22}{subsection.3.3.2}
+\contentsline {chapter}{\numberline {4}Implementazione}{25}{chapter.4}
+\contentsline {section}{\numberline {4.1}Tecnologie utilizzate}{25}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}AKKA}{25}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}FastUtil}{26}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Joinery Dataframe}{27}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}Struttura del progetto}{27}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Package DataSet}{28}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Package RFD}{29}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Package Actors}{38}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Package Utility}{42}{subsection.4.2.4}
+\contentsline {section}{\numberline {4.3}Requisiti}{43}{section.4.3}
+\contentsline {chapter}{\numberline {5}Conclusioni}{44}{chapter.5}
+\contentsline {section}{\numberline {5.1}Lavori futuri}{44}{section.5.1}
+\contentsline {paragraph}{Miglioramento utilizzo memoria}{44}{section.5.1}
+\contentsline {paragraph}{Distribuzione}{45}{section.5.1}
+\contentsline {section}{\numberline {5.2}Riflessioni}{45}{section.5.2}
+\contentsline {section}{\numberline {5.3}Test}{46}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Dataset utilizzati}{47}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Risultati test sequenziale}{47}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Risultati test con due thread}{48}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Risultati test con tre thread}{49}{subsection.5.3.4}
+\contentsline {subsection}{\numberline {5.3.5}Risultati test con sette thread}{49}{subsection.5.3.5}
+\contentsline {subsection}{\numberline {5.3.6}Considerazioni finali su testing}{50}{subsection.5.3.6}
+\contentsline {chapter}{\numberline {6}Ringraziamenti}{52}{chapter.6}

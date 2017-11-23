@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{ActorRef} \PYG{n}{actor}\PYG{o}{=}\PYG{k}{this}\PYG{o}{.}\PYG{n+na}{getContext}\PYG{o}{().}\PYG{n+na}{actorOf}\PYG{o}{(}\PYG{n}{ConcurrentDMActor}\PYG{o}{.}\PYG{n+na}{props}\PYG{o}{());}
+\PYG{n}{actor}\PYG{o}{.}\PYG{n+na}{tell}\PYG{o}{(}\PYG{k}{new} \PYG{n}{CreateConcurrentDM}
+                \PYG{o}{(}\PYG{n}{inizioCorrente}\PYG{o}{,}\PYG{n}{dimension}\PYG{o}{,}\PYG{k}{this}\PYG{o}{.}\PYG{n+na}{df}\PYG{o}{),} \PYG{k}{this}\PYG{o}{.}\PYG{n+na}{getSelf}\PYG{o}{());}
+\end{Verbatim}

@@ -1,0 +1,14 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cm}{/**}
+\PYG{c+cm}{ * @param inizio Indice di riga iniziale da confrontare}
+\PYG{c+cm}{ * @param dimensione Indice di numero righe da confrontare}
+\PYG{c+cm}{ * @param df dataFrame in input}
+\PYG{c+cm}{ * @return Matrice Delle Distanze}
+\PYG{c+cm}{ * Metodo per la creazione della matrice delle distanze.}
+\PYG{c+cm}{ * Effettua anche taglio dei duplicati.}
+\PYG{c+cm}{ * Versione per la parallelizzazione.}
+\PYG{c+cm}{*/}
+\PYG{k+kd}{public} \PYG{k+kd}{static} \PYG{n}{DataFrame}\PYG{o}{\PYGZlt{}}\PYG{n}{Object}\PYG{o}{\PYGZgt{}} \PYG{n+nf}{concurrentCreateMatrix}
+                                       \PYG{o}{(}\PYG{k+kt}{int} \PYG{n}{inizio}\PYG{o}{,}\PYG{k+kt}{int} \PYG{n}{dimensione}\PYG{o}{,}
+                                           \PYG{n}{DataFrame}\PYG{o}{\PYGZlt{}}\PYG{n}{Object}\PYG{o}{\PYGZgt{}} \PYG{n}{completeDF}\PYG{o}{)}
+\end{Verbatim}

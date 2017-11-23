@@ -1,8 +1,16 @@
 \select@language {italian}
 \select@language {italian}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {1.1}{\ignorespaces Esempio di schema di relazione\relax }}{6}
-\contentsline {table}{\numberline {1.2}{\ignorespaces Esempio di Relazione con anomalie\relax }}{11}
+\contentsline {table}{\numberline {1.1}{\ignorespaces Esempio di schema di relazione\relax }}{4}{table.caption.5}
+\contentsline {table}{\numberline {1.2}{\ignorespaces Esempio di Relazione con anomalie\relax }}{9}{table.caption.6}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Esempio di matrice per le distanze tra $P_j$ e $P_y$\relax }}{23}{table.caption.7}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces Dataset utilizzati\relax }}{47}{table.caption.12}
+\contentsline {table}{\numberline {5.2}{\ignorespaces RFD scoperte corredate dai tempi impiegati dall'algoritmo per ogni dataset\relax }}{48}{table.caption.13}
+\contentsline {table}{\numberline {5.3}{\ignorespaces RFD scoperte corredate dai tempi impiegati dall'algoritmo per ogni dataset con due thread\relax }}{48}{table.caption.14}
+\contentsline {table}{\numberline {5.4}{\ignorespaces RFD scoperte corredate dai tempi impiegati dall'algoritmo per ogni dataset con tre thread\relax }}{49}{table.caption.15}
+\contentsline {table}{\numberline {5.5}{\ignorespaces RFD scoperte corredate dai tempi impiegati dall'algoritmo per ogni dataset con sette thread\relax }}{50}{table.caption.16}
 \addvspace {10\p@ }

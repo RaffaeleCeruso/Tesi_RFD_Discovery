@@ -1,0 +1,13 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{//Gestione feasibility test e risposta al mittente}
+\PYG{k}{return} \PYG{n}{receiveBuilder}\PYG{o}{()}
+   \PYG{o}{.}\PYG{n+na}{match}\PYG{o}{(}\PYG{n}{CreateFeasibiity}\PYG{o}{.}\PYG{n+na}{class}\PYG{o}{,} \PYG{n}{cf}\PYG{o}{\PYGZhy{}\PYGZgt{}}
+   \PYG{o}{\PYGZob{}}
+       \PYG{n}{OrderedDM} \PYG{n}{dm} \PYG{o}{=} \PYG{n}{cf}\PYG{o}{.}\PYG{n+na}{orderedDM}\PYG{o}{;}
+       \PYG{n}{Object2ObjectOpenHashMap}\PYG{o}{\PYGZlt{}}\PYG{n}{String}\PYG{o}{,}\PYG{n}{ObjectArrayList}\PYG{o}{\PYGZlt{}}\PYG{n}{Tuple}\PYG{o}{\PYGZgt{}\PYGZgt{}} \PYG{n}{hMap} \PYG{o}{=}
+                   \PYG{n}{FeasibilityOrderedDM}\PYG{o}{.}\PYG{n+na}{feasibilityTest}\PYG{o}{(}\PYG{n}{dm}\PYG{o}{,}\PYG{n}{cf}\PYG{o}{.}\PYG{n+na}{dmGenerale}\PYG{o}{);}
+       \PYG{n}{dm}\PYG{o}{.}\PYG{n+na}{setInsiemeC}\PYG{o}{(}\PYG{n}{hMap}\PYG{o}{);}
+       \PYG{k}{this}\PYG{o}{.}\PYG{n+na}{getSender}\PYG{o}{().}\PYG{n+na}{tell}\PYG{o}{(}\PYG{k}{new} \PYG{n}{MainActor}\PYG{o}{.}\PYG{n+na}{ReciveFeasibility}\PYG{o}{(}\PYG{n}{dm}\PYG{o}{),}
+                                                    \PYG{k}{this}\PYG{o}{.}\PYG{n+na}{getSelf}\PYG{o}{());}
+	 \PYG{o}{\PYGZcb{}).}\PYG{n+na}{build}\PYG{o}{();}
+\end{Verbatim}
