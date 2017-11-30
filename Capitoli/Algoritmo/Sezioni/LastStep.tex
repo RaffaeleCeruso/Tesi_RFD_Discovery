@@ -28,6 +28,100 @@ Una volta calcolati tali valori e salvati in una matrice $M_{(h,n)}$ l'algoritmo
 \end{center}
 Per ognuno dei nodi generati l'algoritmo effettua la verifica di minimalità. Definiamo $S_k$ ottimo se valgono le seguenti due proprietà:\\Con $|S_k| = 1$:\\$\bullet$ $\forall$ valore di $T_{jy} \in M_{(h,n)}$ $|$ $T_{jy} \leq 0$.\\Con $|S_k| > 1$:\\ $\bullet$ $\exists$ un valore di $T_{jy} \in M_{(h,n)}$ $|$ $T_{jy} < 0$, oppure $ \forall$  $T_{jy} \in M_{(h,n)}$, $T_{jy}= 0 $.\\ Affinché però si eviti di considerare super-set ammissibili di set minimali oppure, casi in cui nessuna combinazione del sotto-pattern $S_k$ considerato riconduce ad un minimale, applicheremo la tecnica del \emph{Pruning}. Il \emph{Pruning} è una tecnica che riduce le dimensioni degli alberi decisionali rimuovendo sezioni che non riconducono all'ottimo. Definiti tali concetti l'algoritmo, partendo dal livello 1, per ogni nodo dell'albero verifica due condizioni:\\1) Tutti i valori di $S_k$ sono positivi.\\2) Tutti i valori di $S_k$ sono negativi.\\Se si verifica uno solo dei due casi poc'anzi citati l'algoritmo elimina dal \emph{Lattice} tutti gli archi tra il nodo rappresentante $S_k$ e i suoi figli, riducendo così di molto i tempi computazionali. Ritornando all'esempio precedente, con sotto-pattern $S_k = \{A\}$ composto da tutti valori negativi, l'algoritmo elimina gli archi uscenti sui nodi $\{AC\}$, $\{AB\}$, $\{ABC\}$ e, infine, avendo $S_k$ superato il test di ottimalità, tale sotto-pattern risulta essere minimale.\\
 \begin{center}
-\includegraphics[scale = 0.60]{Immagini/Lattice-taglio.png}\\
+	\includegraphics[scale = 0.60]{Immagini/Lattice-taglio.png}\\
 \end{center}
-L'output del \emph{Minimality} sarà dunque, per ogni pattern $P_j$, i minimali $S_k$ per quel pattern.
+L'output del \emph{Minimality} sarà dunque, per ogni pattern $P_j$, i minimali $S_k$ per quel pattern. Di seguito vengono riportati i pseudocodice dei metodi di MinimalityTest, validate\&PrunePatterns e generateSuperseAttribute.\\
+\begin{algorithm}
+	\caption{generateSuperSetAttributes(Set \textbf{LevelAttributes}, Set[] \textbf{*columnSet}, Set[] \textbf{*columnEqualSet},)}\label{generatesupersetattributes}
+	\begin{algorithmic}[1]	
+		
+		
+		\State Set $\textit{ newLevelAttributes}$
+		\State Set[] $\textit{newColumnSet}$
+		\State Set[] $\textit{newColumnEqualSet}$
+		\State int \textit{codIndex} = 0
+		\State column combination \textit{newJ}
+		\For{\textbf{each} column combination $j$ in \textit{columnSet/columnEqualSet}}
+		\For{\textbf{each} column combination $j'$ in \textit{columnSet/columnEqualSet}
+			\State starting from $j+1$}
+		\If SAMPREFIX($columnSet[j]$,\textit{columnSet[j']})
+		\State \textit{newJ = }GETSUPERSET(\textit{columnSet[j]},\textit{columnSet[j']})
+		\State \textit{newLevelAttributes}.ADD($newJ$)
+		\State \textit{newColumnSet}[$ccIndex$]=\textit{columnSet[j]}.GETELEMENTS()
+		\State U \textit{columnSet[j']}.GETELEMENTS()
+		\State \textit{newColumnEqualSet}[$ccIndex$]=\textit{columnEqualSet[j]}.GETELEMENTS()
+		\State U \textit{columnEqualSet[j']}.GETELEMENTS()
+		\State \textit{ccIndex = ccIndex + 1}	    
+		\EndIf
+		\EndFor
+		\EndFor
+		\State \textit{columnSet = newColumnSet}
+		\State \textit{columnEqualSet = newColumnEqualSet}\\
+		\Return \textit{newLevelAttributes}
+	\end{algorithmic}
+\end{algorithm}
+\begin{algorithm}
+	\caption{Validate\&PrunePatterns(Set *\textbf{LevelAttributes}, Set \textbf{*results}, Set[] \textbf{columnSet}, Set[] \textbf{columnEqualSet}, int \textbf{totElements})}\label{validateeprunepattern}
+	\begin{algorithmic}[1]	
+		
+		
+		\For{\textbf{each} column combination $j$ in \textit{columnSet/columnEqualSet}}
+		\If{\textit{columnSet[j].SIZE() = totElements}}
+		\State \textit{results.ADD(columnSet[j])}
+		\State \textit{LevelAttributes}.REMOVE(\textit{columnSet[j]})
+		\ElsIf{\textit{columnSet[j].}SIZE() + \textit{columnEqualSet[j]}.SIZE() = \textit{totElements}}
+		\State \textit{results}.ADD(\textit{columnSet[j]})
+		\ElsIf{\textit{columnSet[j].}SIZE() + \textit{columnEqualSet[j]}.SIZE() = \textit{0}}
+		\State \textit{results}.REMOVE(\textit{columnSet[j]})
+		
+		\EndIf
+		\EndFor
+	\end{algorithmic}
+\end{algorithm}
+\begin{algorithm}
+	\caption{Minimality Test(Set \textbf{C}, int \textbf{numColumn}, int \textbf{numRows})}\label{euclid}
+	\begin{algorithmic}[1]	
+		\State int[][] $\textit{ diffPatterns} = \text{null }$
+		\State int $\textit{ Level} = \text{1 }$
+		\State Set $\textit{ LevelAttributes} = \text{}$
+        \State Set $\textit{results} = \text{null}$
+        \State Set[] $\textit{columnSet} = \text{null}$
+        \State Set[] $\textit{columnEqualSet} = \text{null}$
+
+\For{\textbf{each} Set $C_i$ in $C$ in descending order}
+\State $\textit{results} = \text{null}$
+
+\For{\textbf{each} pattern tuple $t_p$ in $C_i$}
+\State $\textit{diffPatterns} = CREATEDIFFERENCEPATTERNS(t_p)$
+\State //fase di inizializzazione
+
+\For{\textbf{each} row tuple $t_j$ in \textit{diffPatterns}}
+\For{\textbf{each} column $j$ of $t_j$}
+\State \textit{levelAttributes}.ADD($j$)
+\EndFor
+\For{\textbf{each} value $e$ in column of $t_j$}
+\State \textit{e} = \textit{diffPatterns.GETELEMENT($j$)}
+\If \textit{e} = 0
+\State \textit{columnEqualSet[$j$].ADD($e$)}
+\Else{\textbf{ if }$e < 0$}
+\State \textit{columnSet[$j$].ADD($e$)}
+\EndIf
+\EndFor
+\EndFor
+\State //fine inizializzazione
+\State //fase di ricerca via lattice
+\While{\textit{level}$<=$\textit{ numColumn}}
+\State VALIDATE\&PRUNEPATTERNS(\textit{*LevelAttributes,*results,
+\State columnSet,columnEqualSet,numRows})
+\State \textit{Level = Level + 1}
+\State \textit{LevelAttributes = }
+\If{\textit{LevelAttributes}.SIZE() = 0}
+\State \textbf{break}
+\EndIf
+\EndWhile
+\State //fase di ricerca via lattice
+\EndFor
+\State GENERATED(\textit{results}) //fase descritta nella tesi Leo
+\EndFor
+	\end{algorithmic}
+\end{algorithm}

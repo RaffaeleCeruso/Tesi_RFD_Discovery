@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.9)  29 NOV 2017 13:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.9)  30 NOV 2017 12:47
 entering extended mode
 **./LastStep.tex
 (LastStep.tex
@@ -3129,8 +3129,8 @@ Overfull \hbox (11.05211pt too wide) in paragraph at lines 29--30
  []
 
 ! Undefined control sequence.
-l.31 \includegraphics
-                     [scale = 0.60]{Immagini/Lattice-taglio.png}\\
+l.31 	\includegraphics
+                      [scale = 0.60]{Immagini/Lattice-taglio.png}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3238,6 +3238,2150 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no . in font nullfont!
+
+! LaTeX Error: Environment algorithm undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 \begin{algorithm}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 	\caption
+              {Minimality Test(Set \textbf{C}, int \textbf{numColumn}, int \...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no M in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no ) in font nullfont!
+
+! LaTeX Error: Environment algorithmic undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 	\begin{algorithmic}
+                         [1]	
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no ] in font nullfont!
+! Undefined control sequence.
+l.37 		\State
+              int[][] $\textit{ diffPatterns} = \text{null }$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no ] in font nullfont!
+! Undefined control sequence.
+l.37 ...te int[][] $\textit{ diffPatterns} = \text
+                                                  {null }$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.38 		\State
+              int $\textit{ Level} = \text{1 }$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+! Undefined control sequence.
+l.38 		\State int $\textit{ Level} = \text
+                                          {1 }$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.39 		\State
+              Set $\textit{ LevelAttributes} = \text{}$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no S in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+! Undefined control sequence.
+l.39 ...ate Set $\textit{ LevelAttributes} = \text
+                                                  {}$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.40         \State
+                    Set $\textit{results} = \text{null}$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no S in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+! Undefined control sequence.
+l.40         \State Set $\textit{results} = \text
+                                                 {null}$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.41         \State
+                    Set[] $\textit{columnSet} = \text{null}$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no S in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no ] in font nullfont!
+! Undefined control sequence.
+l.41 ...  \State Set[] $\textit{columnSet} = \text
+                                                  {null}$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.42         \State
+                    Set[] $\textit{columnEqualSet} = \text{null}$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no S in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no ] in font nullfont!
+! Undefined control sequence.
+l.42 ...ate Set[] $\textit{columnEqualSet} = \text
+                                                  {null}$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (21.2332pt too wide) in paragraph at lines 33--43
+  \OT1/cmr/m/it/10 Min-
+ []
+
+
+Overfull \hbox (6.6444pt too wide) in paragraph at lines 33--43
+\OT1/cmr/m/it/10 i-
+ []
+
+
+Overfull \hbox (19.4221pt too wide) in paragraph at lines 33--43
+\OT1/cmr/m/it/10 mal-
+ []
+
+
+Overfull \hbox (11.24435pt too wide) in paragraph at lines 33--43
+\OT1/cmr/m/it/10 ity
+ []
+
+
+Overfull \hbox (10.6337pt too wide) in paragraph at lines 33--43
+\OML/cmm/m/it/10 P[]$
+ []
+
+
+Overfull \hbox (11.05211pt too wide) in paragraph at lines 33--43
+\OML/cmm/m/it/10 S[]$
+ []
+
+
+Overfull \hbox (8.30551pt too wide) in paragraph at lines 33--43
+\OT1/cmr/bx/n/10 C
+ []
+
+
+Overfull \hbox (25.87486pt too wide) in paragraph at lines 33--43
+\OT1/cmr/bx/n/10 num-
+ []
+
+
+Overfull \hbox (21.08322pt too wide) in paragraph at lines 33--43
+\OT1/cmr/bx/n/10 Col-
+ []
+
+
+Overfull \hbox (22.361pt too wide) in paragraph at lines 33--43
+\OT1/cmr/bx/n/10 umn
+ []
+
+
+Overfull \hbox (25.87486pt too wide) in paragraph at lines 33--43
+\OT1/cmr/bx/n/10 num-
+ []
+
+
+Overfull \hbox (26.89706pt too wide) in paragraph at lines 33--43
+\OT1/cmr/bx/n/10 Rows[]
+ []
+
+
+Overfull \hbox (65.51068pt too wide) in paragraph at lines 33--43
+[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (18.08807pt too wide) in paragraph at lines 33--43
+[]$
+ []
+
+
+Overfull \hbox (36.24973pt too wide) in paragraph at lines 33--43
+[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 33--43
+\OT1/cmr/m/n/10 1$
+ []
+
+
+Overfull \hbox (79.33272pt too wide) in paragraph at lines 33--43
+[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (38.28308pt too wide) in paragraph at lines 33--43
+[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (18.08807pt too wide) in paragraph at lines 33--43
+[]$
+ []
+
+
+Overfull \hbox (55.02188pt too wide) in paragraph at lines 33--43
+[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (18.08807pt too wide) in paragraph at lines 33--43
+[]$
+ []
+
+
+Overfull \hbox (79.4384pt too wide) in paragraph at lines 33--43
+[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (18.08807pt too wide) in paragraph at lines 33--43
+[]$ 
+ []
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1{C:/Users/raffa/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+! Undefined control sequence.
+<write> \newlabel{tab:table esempio}{{}{\thepage 
+                                                 }}
+l.43 
+     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{tab:table esempio}{{}{}}
+]
+! Undefined control sequence.
+l.44 \For
+         {\textbf{each} Set $C_i$ in $C$ in descending order}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no S in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+! Undefined control sequence.
+l.45 \State
+            $\textit{results} = \text{null}$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.45 \State $\textit{results} = \text
+                                     {null}$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (42.04153pt too wide) in paragraph at lines 44--46
+[]\OT1/cmr/bx/n/10 each
+ []
+
+
+Overfull \hbox (10.4765pt too wide) in paragraph at lines 44--46
+\OML/cmm/m/it/10 C[]$
+ []
+
+
+Overfull \hbox (7.86249pt too wide) in paragraph at lines 44--46
+\OML/cmm/m/it/10 C$
+ []
+
+
+Overfull \hbox (38.28308pt too wide) in paragraph at lines 44--46
+[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (18.08807pt too wide) in paragraph at lines 44--46
+[]$ 
+ []
+
+! Undefined control sequence.
+l.47 \For
+         {\textbf{each} pattern tuple $t_p$ in $C_i$}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+! Undefined control sequence.
+l.48 \State
+            $\textit{diffPatterns} = CREATEDIFFERENCEPATTERNS(t_p)$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.49 \State
+            //fase di inizializzazione
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no / in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+
+Overfull \hbox (42.04153pt too wide) in paragraph at lines 47--50
+[]\OT1/cmr/bx/n/10 each
+ []
+
+
+Overfull \hbox (8.23346pt too wide) in paragraph at lines 47--50
+\OML/cmm/m/it/10 t[]$
+ []
+
+
+Overfull \hbox (10.4765pt too wide) in paragraph at lines 47--50
+\OML/cmm/m/it/10 C[]$
+ []
+
+
+Overfull \hbox (61.93294pt too wide) in paragraph at lines 47--50
+[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (201.33824pt too wide) in paragraph at lines 47--50
+\OML/cmm/m/it/10 CREATEDIFFERENCEPATTERNS\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t[]\
+OT1/cmr/m/n/10 )$
+ []
+
+! Undefined control sequence.
+l.51 \For
+         {\textbf{each} row tuple $t_j$ in \textit{diffPatterns}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+! Undefined control sequence.
+l.52 \For
+         {\textbf{each} column $j$ of $t_j$}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+! Undefined control sequence.
+l.53 \State
+            \textit{levelAttributes}.ADD($j$)
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no ) in font nullfont!
+! Undefined control sequence.
+l.54 \EndFor
+            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.55 \For
+         {\textbf{each} value $e$ in column of $t_j$}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no v in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+! Undefined control sequence.
+l.56 \State
+            \textit{e} = \textit{diffPatterns.GETELEMENT($j$)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no = in font nullfont!
+! Undefined control sequence.
+l.57 \If
+         \textit{e} = 0
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+! Undefined control sequence.
+l.58 \State
+            \textit{columnEqualSet[$j$].ADD($e$)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.59 \Else
+          {\textbf{ if }$e < 0$}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.60 \State
+            \textit{columnSet[$j$].ADD($e$)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.61 \EndIf
+           
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.62 \EndFor
+            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.63 \EndFor
+            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.64 \State
+            //fine inizializzazione
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no / in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+! Undefined control sequence.
+l.65 \State
+            //fase di ricerca via lattice
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no / in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+! Undefined control sequence.
+l.66 \While
+           {\textit{level}$<=$\textit{ numColumn}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.67 \State
+            VALIDATE\&PRUNEPATTERNS(\textit{*LevelAttributes,*results,column...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no V in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no & in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no U in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no ) in font nullfont!
+! Undefined control sequence.
+l.68 \State
+            \textit{Level = Level + 1}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.69 \State
+            \textit{LevelAttributes = }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.70 \If
+        {\textit{LevelAttributes}.SIZE() = 0}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no Z in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+! Undefined control sequence.
+l.71 \State
+            \textbf{break}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.72 \EndIf
+           
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.73 \EndWhile
+              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.74 \State
+            //fase di ricerca via lattice
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no / in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+! Undefined control sequence.
+l.75 \EndFor
+            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.76 \State
+            GENERATED(\textit{results}) //fase descritta nella tesi Leo
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no G in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no o in font nullfont!
+! Undefined control sequence.
+l.77 \EndFor
+            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \begin{document} ended by \end{algorithmic}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.78 	\end{algorithmic}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{algorithm}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.79 \end{algorithm}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment algorithm undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.80 \begin{algorithm}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.81 	\caption
+              {Validate\&PrunePatterns(Set *\textbf{LevelAttributes}, Set \t...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no V in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no & in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no ) in font nullfont!
+
+! LaTeX Error: Environment algorithmic undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 	\begin{algorithmic}
+                         [1]	
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no ] in font nullfont!
+
+Overfull \hbox (42.04153pt too wide) in paragraph at lines 51--83
+[]\OT1/cmr/bx/n/10 each
+ []
+
+
+Overfull \hbox (7.82468pt too wide) in paragraph at lines 51--83
+\OML/cmm/m/it/10 t[]$
+ []
+
+
+Overfull \hbox (17.88876pt too wide) in paragraph at lines 51--83
+\OT1/cmr/m/it/10 diff-
+ []
+
+
+Overfull \hbox (18.79431pt too wide) in paragraph at lines 51--83
+\OT1/cmr/m/it/10 Pat-
+ []
+
+
+Overfull \hbox (21.84984pt too wide) in paragraph at lines 51--83
+\OT1/cmr/m/it/10 terns
+ []
+
+
+Overfull \hbox (22.04153pt too wide) in paragraph at lines 51--83
+\OT1/cmr/bx/n/10 each
+ []
+
+
+Overfull \hbox (4.69049pt too wide) in paragraph at lines 51--83
+\OML/cmm/m/it/10 j$
+ []
+
+
+Overfull \hbox (7.82468pt too wide) in paragraph at lines 51--83
+\OML/cmm/m/it/10 t[]$
+ []
+
+
+Overfull \hbox (66.68445pt too wide) in paragraph at lines 51--83
+\OT1/cmr/m/it/10 levelAttributes$\OML/cmm/m/it/10 j$
+ []
+
+
+Overfull \hbox (22.04153pt too wide) in paragraph at lines 51--83
+\OT1/cmr/bx/n/10 each
+ []
+
+
+Overfull \hbox (4.65627pt too wide) in paragraph at lines 51--83
+\OML/cmm/m/it/10 e$
+ []
+
+
+Overfull \hbox (7.82468pt too wide) in paragraph at lines 51--83
+\OML/cmm/m/it/10 t[]$
+ []
+
+
+Overfull \hbox (4.59996pt too wide) in paragraph at lines 51--83
+\OT1/cmr/m/it/10 e
+ []
+
+
+Overfull \hbox (139.16463pt too wide) in paragraph at lines 51--83
+\OT1/cmr/m/it/10 diffPatterns.GETELEMENT($\OML/cmm/m/it/10 j$\OT1/cmr/m/it/10 )
+
+ []
+
+
+Overfull \hbox (4.59996pt too wide) in paragraph at lines 51--83
+\OT1/cmr/m/it/10 e
+ []
+
+
+Overfull \hbox (118.1405pt too wide) in paragraph at lines 51--83
+\OT1/cmr/m/it/10 columnEqualSet[$\OML/cmm/m/it/10 j$\OT1/cmr/m/it/10 ].ADD($\OM
+L/cmm/m/it/10 e$\OT1/cmr/m/it/10 )
+ []
+
+
+Overfull \hbox (6.7083pt too wide) in paragraph at lines 51--83
+\OT1/cmr/bx/n/10 if
+ []
+
+
+Overfull \hbox (15.21178pt too wide) in paragraph at lines 51--83
+\OML/cmm/m/it/10 e <
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 51--83
+\OT1/cmr/m/n/10 0$
+ []
+
+
+Overfull \hbox (93.72398pt too wide) in paragraph at lines 51--83
+\OT1/cmr/m/it/10 columnSet[$\OML/cmm/m/it/10 j$\OT1/cmr/m/it/10 ].ADD($\OML/cmm
+/m/it/10 e$\OT1/cmr/m/it/10 )
+ []
+
+
+Overfull \hbox (35.49991pt too wide) in paragraph at lines 51--83
+\OT1/cmr/m/it/10 level$\OML/cmm/m/it/10 <\OT1/cmr/m/n/10 =$
+ []
+
+
+Overfull \hbox (22.74431pt too wide) in paragraph at lines 51--83
+\OT1/cmr/m/it/10 num-
+ []
+
+
+Overfull \hbox (18.39987pt too wide) in paragraph at lines 51--83
+\OT1/cmr/m/it/10 Col-
+ []
+
+
+Overfull \hbox (19.16656pt too wide) in paragraph at lines 51--83
+\OT1/cmr/m/it/10 umn
+ []
+
+
+Overfull \hbox (23.6498pt too wide) in paragraph at lines 51--83
+\OT1/cmr/m/it/10 *Lev-
+ []
+
+
+Overfull \hbox (8.1777pt too wide) in paragraph at lines 51--83
+\OT1/cmr/m/it/10 e-
+ []
+
+
+Overfull \hbox (16.6332pt too wide) in paragraph at lines 51--83
+\OT1/cmr/m/it/10 lAt-
+ []
+
+
+Overfull \hbox (232.8318pt too wide) in paragraph at lines 51--83
+\OT1/cmr/m/it/10 tributes,*results,columnSet,columnEqualSet,numRows
+ []
+
+
+Overfull \hbox (22.11647pt too wide) in paragraph at lines 51--83
+\OT1/cmr/m/it/10 Level
+ []
+
+
+Overfull \hbox (7.66663pt too wide) in paragraph at lines 51--83
+\OT1/cmr/m/it/10 =
+ []
+
+
+Overfull \hbox (22.11647pt too wide) in paragraph at lines 51--83
+\OT1/cmr/m/it/10 Level
+ []
+
+
+Overfull \hbox (7.66663pt too wide) in paragraph at lines 51--83
+\OT1/cmr/m/it/10 +
+ []
+
+
+Overfull \hbox (5.11108pt too wide) in paragraph at lines 51--83
+\OT1/cmr/m/it/10 1
+ []
+
+
+Overfull \hbox (18.53871pt too wide) in paragraph at lines 51--83
+\OT1/cmr/m/it/10 Lev-
+ []
+
+
+Overfull \hbox (8.1777pt too wide) in paragraph at lines 51--83
+\OT1/cmr/m/it/10 e-
+ []
+
+
+Overfull \hbox (16.6332pt too wide) in paragraph at lines 51--83
+\OT1/cmr/m/it/10 lAt-
+ []
+
+
+Overfull \hbox (32.58308pt too wide) in paragraph at lines 51--83
+\OT1/cmr/m/it/10 tributes
+ []
+
+
+Overfull \hbox (7.66663pt too wide) in paragraph at lines 51--83
+\OT1/cmr/m/it/10 =
+ []
+
+
+Overfull \hbox (18.53871pt too wide) in paragraph at lines 51--83
+\OT1/cmr/m/it/10 Lev-
+ []
+
+
+Overfull \hbox (8.1777pt too wide) in paragraph at lines 51--83
+\OT1/cmr/m/it/10 e-
+ []
+
+
+Overfull \hbox (16.6332pt too wide) in paragraph at lines 51--83
+\OT1/cmr/m/it/10 lAt-
+ []
+
+
+Overfull \hbox (32.58308pt too wide) in paragraph at lines 51--83
+\OT1/cmr/m/it/10 tributes
+ []
+
+
+Overfull \hbox (28.0554pt too wide) in paragraph at lines 51--83
+\OT1/cmr/bx/n/10 break
+ []
+
+
+Overfull \hbox (11.88321pt too wide) in paragraph at lines 51--83
+\OT1/cmr/m/it/10 re-
+ []
+
+
+Overfull \hbox (19.4221pt too wide) in paragraph at lines 51--83
+\OT1/cmr/m/it/10 sults
+ []
+
+
+Overfull \hbox (22.09016pt too wide) in paragraph at lines 51--83
+\OT1/cmr/bx/n/10 Lev-
+ []
+
+
+Overfull \hbox (9.10413pt too wide) in paragraph at lines 51--83
+\OT1/cmr/bx/n/10 e-
+ []
+
+
+Overfull \hbox (19.8749pt too wide) in paragraph at lines 51--83
+\OT1/cmr/bx/n/10 lAt-
+ []
+
+
+Overfull \hbox (39.45952pt too wide) in paragraph at lines 51--83
+\OT1/cmr/bx/n/10 tributes
+ []
+
+
+Overfull \hbox (19.5902pt too wide) in paragraph at lines 51--83
+\OT1/cmr/bx/n/10 *re-
+ []
+
+
+Overfull \hbox (23.12762pt too wide) in paragraph at lines 51--83
+\OT1/cmr/bx/n/10 sults
+ []
+
+
+Overfull \hbox (52.54834pt too wide) in paragraph at lines 51--83
+\OT1/cmr/bx/n/10 columnSet
+ []
+
+
+Overfull \hbox (33.86093pt too wide) in paragraph at lines 51--83
+\OT1/cmr/bx/n/10 colum-
+ []
+
+
+Overfull \hbox (51.31915pt too wide) in paragraph at lines 51--83
+\OT1/cmr/bx/n/10 nEqualSet
+ []
+
+
+Overfull \hbox (34.54843pt too wide) in paragraph at lines 51--83
+\OT1/cmr/bx/n/10 totEle-
+ []
+
+
+Overfull \hbox (29.93178pt too wide) in paragraph at lines 51--83
+\OT1/cmr/bx/n/10 ments[]
+ []
+
+! Undefined control sequence.
+l.85 	   \For
+             {\textbf{each} column combination $j$ in \textit{columnSet/colu...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+! Undefined control sequence.
+l.86 	   \If
+            {\textit{columnSet[j].SIZE() = totElements}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.87 	   \State
+                \textit{results.ADD(columnSet[j])}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.88 	   \State
+                \textit{LevelAttributes}.REMOVE(\textit{columnSet[j]})
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no V in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no ) in font nullfont!
+! Undefined control sequence.
+l.89 	   \ElsIf
+               {\textit{columnSet[j].}SIZE() + \textit{columnEqualSet[j]}.SI...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no S in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no Z in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no + in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no Z in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no = in font nullfont!
+! Undefined control sequence.
+l.90 	   \State
+                \textit{results}.ADD(\textit{columnSet[j]})
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no ) in font nullfont!
+! Undefined control sequence.
+l.91 	   \ElsIf
+               {\textit{columnSet[j].}SIZE() + \textit{columnEqualSet[j]}.SI...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no S in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no Z in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no + in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no Z in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no = in font nullfont!
+! Undefined control sequence.
+l.92 	   \State
+                \textit{results}.REMOVE(\textit{columnSet[j]})
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no V in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no ) in font nullfont!
+
+Overfull \hbox (42.04153pt too wide) in paragraph at lines 85--93
+[]\OT1/cmr/bx/n/10 each
+ []
+
+
+Overfull \hbox (4.69049pt too wide) in paragraph at lines 85--93
+\OML/cmm/m/it/10 j$
+ []
+
+
+Overfull \hbox (118.46034pt too wide) in paragraph at lines 85--93
+\OT1/cmr/m/it/10 columnSet/columnEqualSet
+ []
+
+
+Overfull \hbox (87.30501pt too wide) in paragraph at lines 85--93
+\OT1/cmr/m/it/10 columnSet[j].SIZE()
+ []
+
+
+Overfull \hbox (7.66663pt too wide) in paragraph at lines 85--93
+\OT1/cmr/m/it/10 =
+ []
+
+
+Overfull \hbox (29.272pt too wide) in paragraph at lines 85--93
+\OT1/cmr/m/it/10 totEle-
+ []
+
+
+Overfull \hbox (25.81094pt too wide) in paragraph at lines 85--93
+\OT1/cmr/m/it/10 ments
+ []
+
+
+Overfull \hbox (11.88321pt too wide) in paragraph at lines 85--93
+\OT1/cmr/m/it/10 re-
+ []
+
+
+Overfull \hbox (106.86598pt too wide) in paragraph at lines 85--93
+\OT1/cmr/m/it/10 sults.ADD(columnSet[j])
+ []
+
+
+Overfull \hbox (18.53871pt too wide) in paragraph at lines 85--93
+\OT1/cmr/m/it/10 Lev-
+ []
+
+
+Overfull \hbox (8.1777pt too wide) in paragraph at lines 85--93
+\OT1/cmr/m/it/10 e-
+ []
+
+
+Overfull \hbox (16.6332pt too wide) in paragraph at lines 85--93
+\OT1/cmr/m/it/10 lAt-
+ []
+
+
+Overfull \hbox (86.2494pt too wide) in paragraph at lines 85--93
+\OT1/cmr/m/it/10 tributescolumnSet[j]
+ []
+
+
+Overfull \hbox (56.73297pt too wide) in paragraph at lines 85--93
+\OT1/cmr/m/it/10 columnSet[j].
+ []
+
+
+Overfull \hbox (28.87758pt too wide) in paragraph at lines 85--93
+\OT1/cmr/m/it/10 colum-
+ []
+
+
+Overfull \hbox (52.783pt too wide) in paragraph at lines 85--93
+\OT1/cmr/m/it/10 nEqualSet[j]
+ []
+
+
+Overfull \hbox (29.272pt too wide) in paragraph at lines 85--93
+\OT1/cmr/m/it/10 totEle-
+ []
+
+
+Overfull \hbox (25.81094pt too wide) in paragraph at lines 85--93
+\OT1/cmr/m/it/10 ments
+ []
+
+
+Overfull \hbox (11.88321pt too wide) in paragraph at lines 85--93
+\OT1/cmr/m/it/10 re-
+ []
+
+
+Overfull \hbox (73.08842pt too wide) in paragraph at lines 85--93
+\OT1/cmr/m/it/10 sultscolumnSet[j]
+ []
+
+
+Overfull \hbox (56.73297pt too wide) in paragraph at lines 85--93
+\OT1/cmr/m/it/10 columnSet[j].
+ []
+
+
+Overfull \hbox (28.87758pt too wide) in paragraph at lines 85--93
+\OT1/cmr/m/it/10 colum-
+ []
+
+
+Overfull \hbox (52.783pt too wide) in paragraph at lines 85--93
+\OT1/cmr/m/it/10 nEqualSet[j]
+ []
+
+
+Overfull \hbox (5.11108pt too wide) in paragraph at lines 85--93
+\OT1/cmr/m/it/10 0
+ []
+
+
+Overfull \hbox (11.88321pt too wide) in paragraph at lines 85--93
+\OT1/cmr/m/it/10 re-
+ []
+
+
+Overfull \hbox (74.1412pt too wide) in paragraph at lines 85--93
+\OT1/cmr/m/it/10 sultscolumnSet[j] 
+ []
+
+! Undefined control sequence.
+l.94 	\EndIf
+            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.95 	\EndFor
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \begin{document} ended by \end{algorithmic}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.96 	\end{algorithmic}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{algorithm}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.97 \end{algorithm}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment algorithm undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.98 \begin{algorithm}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.99 	\caption
+              {generateSuperSetAttributes(Set \textbf{LevelAttributes}, Set[...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no ) in font nullfont!
+
+! LaTeX Error: Environment algorithmic undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.100 	\begin{algorithmic}
+                          [1]	
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no ] in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 99--101
+[]
+ []
+
+
+Overfull \hbox (22.09016pt too wide) in paragraph at lines 99--101
+\OT1/cmr/bx/n/10 Lev-
+ []
+
+
+Overfull \hbox (9.10413pt too wide) in paragraph at lines 99--101
+\OT1/cmr/bx/n/10 e-
+ []
+
+
+Overfull \hbox (19.8749pt too wide) in paragraph at lines 99--101
+\OT1/cmr/bx/n/10 lAt-
+ []
+
+
+Overfull \hbox (39.45952pt too wide) in paragraph at lines 99--101
+\OT1/cmr/bx/n/10 tributes
+ []
+
+
+Overfull \hbox (58.29831pt too wide) in paragraph at lines 99--101
+\OT1/cmr/bx/n/10 *columnSet
+ []
+
+
+Overfull \hbox (39.6109pt too wide) in paragraph at lines 99--101
+\OT1/cmr/bx/n/10 *colum-
+ []
+
+
+Overfull \hbox (51.31915pt too wide) in paragraph at lines 99--101
+\OT1/cmr/bx/n/10 nEqualSet[]
+ []
+
+! Undefined control sequence.
+l.103 		\State
+               Set $\textit{ newLevelAttributes}$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no S in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+! Undefined control sequence.
+l.104 		\State
+               Set[] $\textit{newColumnSet}$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no S in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no ] in font nullfont!
+! Undefined control sequence.
+l.105 		\State
+               Set[] $\textit{newColumnEqualSet}$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no S in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no ] in font nullfont!
+! Undefined control sequence.
+l.106 		\State
+               int \textit{codIndex} = 0
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+! Undefined control sequence.
+l.107 	    \State
+                  column combination \textit{newJ}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+! Undefined control sequence.
+l.108 	    \For
+               {\textbf{each} column combination $j$ in \textit{columnSet/co...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+! Undefined control sequence.
+l.109 	    \For
+               {\textbf{each} column combination $j'$ in \textit{columnSet/c...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+! Undefined control sequence.
+l.110 	    \If
+               SAMPREFIX($columnSet[j]$,\textit{columnSet[j']})
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no S in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no X in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no ) in font nullfont!
+! Undefined control sequence.
+l.111 	    \State
+                  \textit{newJ = }GETSUPERSET(\textit{columnSet[j]},\textit{...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no G in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no U in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no ) in font nullfont!
+! Undefined control sequence.
+l.112 	    \State
+                  \textit{newLevelAttributes}.ADD($newJ$)
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no ) in font nullfont!
+! Undefined control sequence.
+l.113 	    \EnfIf
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.114 	    	\EndFor
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.115 	    		\EndFor
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 103--116
+[]
+ []
+
+
+Overfull \hbox (85.64377pt too wide) in paragraph at lines 103--116
+[]$
+ []
+
+
+Overfull \hbox (64.3996pt too wide) in paragraph at lines 103--116
+[]$
+ []
+
+
+Overfull \hbox (88.81612pt too wide) in paragraph at lines 103--116
+[]$
+ []
+
+
+Overfull \hbox (26.85535pt too wide) in paragraph at lines 103--116
+\OT1/cmr/m/it/10 codIn-
+ []
+
+
+Overfull \hbox (14.34991pt too wide) in paragraph at lines 103--116
+\OT1/cmr/m/it/10 dex
+ []
+
+
+Overfull \hbox (22.11652pt too wide) in paragraph at lines 103--116
+\OT1/cmr/m/it/10 newJ
+ []
+
+
+Overfull \hbox (22.04153pt too wide) in paragraph at lines 103--116
+\OT1/cmr/bx/n/10 each
+ []
+
+
+Overfull \hbox (4.69049pt too wide) in paragraph at lines 103--116
+\OML/cmm/m/it/10 j$
+ []
+
+
+Overfull \hbox (118.46034pt too wide) in paragraph at lines 103--116
+\OT1/cmr/m/it/10 columnSet/columnEqualSet
+ []
+
+
+Overfull \hbox (22.04153pt too wide) in paragraph at lines 103--116
+\OT1/cmr/bx/n/10 each
+ []
+
+
+Overfull \hbox (7.49605pt too wide) in paragraph at lines 103--116
+\OML/cmm/m/it/10 j[]$
+ []
+
+
+Overfull \hbox (118.46034pt too wide) in paragraph at lines 103--116
+\OT1/cmr/m/it/10 columnSet/columnEqualSet
+ []
+
+
+Overfull \hbox (12.46829pt too wide) in paragraph at lines 103--116
+\OML/cmm/m/it/10 j \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 103--116
+\OT1/cmr/m/n/10 1$
+ []
+
+
+Overfull \hbox (114.81715pt too wide) in paragraph at lines 103--116
+\OML/cmm/m/it/10 columnSet\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 j\OT1/cmr/m/n/10 ]$
+\OT1/cmr/m/it/10 columnSet[j']
+ []
+
+
+Overfull \hbox (22.11652pt too wide) in paragraph at lines 103--116
+\OT1/cmr/m/it/10 newJ
+ []
+
+
+Overfull \hbox (7.66663pt too wide) in paragraph at lines 103--116
+\OT1/cmr/m/it/10 =
+ []
+
+
+Overfull \hbox (110.39929pt too wide) in paragraph at lines 103--116
+\OT1/cmr/m/it/10 columnSet[j]columnSet[j']
+ []
+
+
+Overfull \hbox (106.65984pt too wide) in paragraph at lines 103--116
+\OT1/cmr/m/it/10 newLevelAttributes$\OML/cmm/m/it/10 newJ$ 
+ []
+
+
+! LaTeX Error: \begin{document} ended by \end{algorithmic}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.117 	\end{algorithmic}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{algorithm}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.118 \end{algorithm}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 )
 ! Emergency stop.
 <*> ./LastStep.tex
@@ -3246,11 +5390,11 @@ Missing character: There is no . in font nullfont!
 
  
 Here is how much of TeX's memory you used:
- 35 strings out of 493323
- 677 string characters out of 3139066
- 59648 words of memory out of 3000000
- 3668 multiletter control sequences out of 15000+200000
+ 41 strings out of 493323
+ 745 string characters out of 3139066
+ 60648 words of memory out of 3000000
+ 3672 multiletter control sequences out of 15000+200000
  4294 words of font info for 16 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 18i,8n,15p,1463b,108s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 18i,8n,15p,1463b,124s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!
