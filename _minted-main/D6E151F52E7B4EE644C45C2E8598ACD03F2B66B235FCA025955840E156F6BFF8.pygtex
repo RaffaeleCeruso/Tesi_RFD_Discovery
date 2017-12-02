@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cm}{/**}
+\PYG{c+cm}{* Metodo che da inizio alla fase di minimality e RFD discovery}
+\PYG{c+cm}{**/}
+\PYG{k+kd}{public} \PYG{k+kd}{static} \PYG{n}{ObjectArrayList}\PYG{o}{\PYGZlt{}}\PYG{n}{RFDMap}\PYG{o}{\PYGZgt{}} \PYG{n+nf}{startMinimalityAndGeneration}
+          \PYG{o}{(}\PYG{n}{ObjectArrayList}\PYG{o}{\PYGZlt{}}\PYG{n}{ObjectArrayList}\PYG{o}{\PYGZlt{}}\PYG{n}{String}\PYG{o}{\PYGZgt{}\PYGZgt{}} \PYG{n}{allC}\PYG{o}{,}
+          	\PYG{k+kt}{int} \PYG{n}{colonne}\PYG{o}{,}
+            \PYG{n}{OrderedDM} \PYG{n}{orderedDM}\PYG{o}{,}
+        	  \PYG{n}{DataFrame}\PYG{o}{\PYGZlt{}}\PYG{n}{Object}\PYG{o}{\PYGZgt{}} \PYG{n}{dM}\PYG{o}{)}
+\end{Verbatim}

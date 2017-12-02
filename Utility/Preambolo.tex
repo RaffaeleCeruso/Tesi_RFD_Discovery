@@ -17,18 +17,21 @@
 \usepackage{float}
 \usepackage{setspace}
 \usepackage[bottom]{footmisc}
+\usepackage{titlesec}
+\usepackage{titlesec, blindtext, color}
+\import{Utility/}{chapterFormat}
+\usepackage[T1]{fontenc}
+\usepackage{lipsum}
 
 \newtheorem{theorem}{Teorema}
 \newtheorem{lemma}{Lemma}
 \linespread{2.0}
 
-\usepackage{titlesec}
-\titleformat{\chapter}[display]
-{\normalfont\huge\bfseries}{}{0pt}{\Huge}
-\titlespacing*{\chapter} {0pt}{90pt}{40pt}
+
 
 \usepackage{minted}
 \usemintedstyle{monokay}
 \renewcommand\listoflistingscaption{Snippet di codice}
+\newmintedfile[JavaCode]{Java}{tabsize=4,obeytabs=true}
 
 \usepackage{calligra}

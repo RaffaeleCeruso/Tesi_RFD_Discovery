@@ -6,5 +6,6 @@
 \PYG{c+cm}{	* @param dm distance matrix}
 \PYG{c+cm}{	* @return orderedDM DM ordinata}
 \PYG{c+cm}{*/}
-\PYG{k+kd}{public} \PYG{k+kd}{static} \PYG{n}{OrderedDM} \PYG{n+nf}{createOrderedDM}\PYG{o}{(}\PYG{k+kt}{int} \PYG{n}{indiceRHS}\PYG{o}{,}\PYG{n}{DataFrame}\PYG{o}{\PYGZlt{}}\PYG{n}{Object}\PYG{o}{\PYGZgt{}} \PYG{n}{dm}\PYG{o}{)}
+\PYG{k+kd}{public} \PYG{k+kd}{static} \PYG{n}{OrderedDM} \PYG{n+nf}{createOrderedDM}\PYG{o}{(}\PYG{k+kt}{int} \PYG{n}{indiceRHS}\PYG{o}{,}
+										\PYG{n}{DataFrame}\PYG{o}{\PYGZlt{}}\PYG{n}{Object}\PYG{o}{\PYGZgt{}} \PYG{n}{dm}\PYG{o}{)}
 \end{Verbatim}

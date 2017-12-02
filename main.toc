@@ -21,7 +21,7 @@
 \contentsline {paragraph}{Distanza tra date}{20}{equation.3.1.2}
 \contentsline {subsection}{\numberline {3.1.2}Calcolo della matrice delle distanze}{20}{subsection.3.1.2}
 \contentsline {section}{\numberline {3.2}Feasibility}{21}{section.3.2}
-\contentsline {section}{\numberline {3.3}Minimality ed RFD Generation}{22}{section.3.3}
+\contentsline {section}{\numberline {3.3}Minimality e Generation}{22}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Nozioni preliminari}{22}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Minimality}{22}{subsection.3.3.2}
 \contentsline {chapter}{\numberline {4}Implementazione}{28}{chapter.4}
@@ -32,9 +32,9 @@
 \contentsline {section}{\numberline {4.2}Struttura del progetto}{30}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Package DataSet}{31}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}Package RFD}{32}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Package Actors}{38}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.3}Package Actors}{39}{subsection.4.2.3}
 \contentsline {subsection}{\numberline {4.2.4}Package Utility}{42}{subsection.4.2.4}
-\contentsline {section}{\numberline {4.3}Requisiti}{42}{section.4.3}
+\contentsline {section}{\numberline {4.3}Requisiti}{43}{section.4.3}
 \contentsline {chapter}{\numberline {5}Conclusioni}{44}{chapter.5}
 \contentsline {section}{\numberline {5.1}Lavori futuri}{44}{section.5.1}
 \contentsline {paragraph}{Miglioramento utilizzo memoria}{44}{section.5.1}
@@ -45,6 +45,6 @@
 \contentsline {subsection}{\numberline {5.3.2}Risultati test sequenziale}{47}{subsection.5.3.2}
 \contentsline {subsection}{\numberline {5.3.3}Risultati test con due thread}{48}{subsection.5.3.3}
 \contentsline {subsection}{\numberline {5.3.4}Risultati test con tre thread}{48}{subsection.5.3.4}
-\contentsline {subsection}{\numberline {5.3.5}Risultati test con sette thread}{49}{subsection.5.3.5}
+\contentsline {subsection}{\numberline {5.3.5}Risultati test con sette thread}{48}{subsection.5.3.5}
 \contentsline {subsection}{\numberline {5.3.6}Considerazioni finali su testing}{49}{subsection.5.3.6}
 \contentsline {chapter}{\numberline {6}Ringraziamenti}{51}{chapter.6}

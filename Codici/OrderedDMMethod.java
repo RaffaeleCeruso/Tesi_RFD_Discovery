@@ -5,4 +5,5 @@
 	* @param dm distance matrix
 	* @return orderedDM DM ordinata
 */
-public static OrderedDM createOrderedDM(int indiceRHS,DataFrame<Object> dm)
+public static OrderedDM createOrderedDM(int indiceRHS,
+										DataFrame<Object> dm)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.9)  30 NOV 2017 14:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.9)  2 DEC 2017 10:29
 entering extended mode
 **./main.tex
 (main.tex
@@ -24,13 +24,13 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\import\import.sty"
 Package: import 2009/03/23  v 5.1
-) (Preambolo.tex
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+)
+(Utility/Preambolo.tex ("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.st
+y"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
@@ -781,9 +781,6 @@ Package footmisc Info: Declaring symbol style lamport* on input line 903.
 Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
 .
 )
-\c@theorem=\count143
-\c@lemma=\count144
-
 ("C:\Program Files\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box36
@@ -796,6 +793,57 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \titlewidthlast=\dimen163
 \titlewidthfirst=\dimen164
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\blindtext\blindtext.sty"
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\xspace.sty"
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count143
+\c@Blindtext=\count144
+\c@blind@countparstart=\count145
+\blind@countxx=\count146
+\blindtext@numBlindtext=\count147
+\blind@countyy=\count148
+\c@blindlist=\count149
+\c@blindlistlevel=\count150
+\c@blindlist@level=\count151
+\blind@listitem=\count152
+\c@blind@listcount=\count153
+\c@blind@levelcount=\count154
+\blind@mathformula=\count155
+\blind@Mathformula=\count156
+\c@blind@randomcount=\count157
+\c@blind@randommax=\count158
+\c@blind@pangramcount=\count159
+\c@blind@pangrammax=\count160
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+(Utility/chapterFormat.tex
+\beforechapskip=\skip63
+\midchapskip=\skip64
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\lipsum\lipsum.sty"
+Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count161
+)
+\c@theorem=\count162
+\c@lemma=\count163
+
 ("C:\Program Files\MiKTeX 2.9\tex\latex\minted\minted.sty"
 Package: minted 2017/07/19 v2.5 Yet another Pygments shim for LaTeX
 
@@ -808,52 +856,208 @@ Package: fancyvrb 2008/02/07
 
 Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
 <2008/02/07> (tvz)
-\FV@CodeLineNo=\count145
+\FV@CodeLineNo=\count164
 \FV@InFile=\read1
 \FV@TabBox=\box37
-\c@FancyVerbLine=\count146
-\FV@StepNumber=\count147
+\c@FancyVerbLine=\count165
+\FV@StepNumber=\count166
 \FV@OutFile=\write3
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\upquote\upquote.sty"
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
 tim
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\lineno\lineno.sty"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\textcomp.sty"
+Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
+File: ts1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+))
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\lineno\lineno.sty"
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
-\linenopenalty=\count148
+\linenopenalty=\count167
 \output=\toks38
-\linenoprevgraf=\count149
+\linenoprevgraf=\count168
 \linenumbersep=\dimen165
 \linenumberwidth=\dimen166
-\c@linenumber=\count150
-\c@pagewiselinenumber=\count151
-\c@LN@truepage=\count152
-\c@internallinenumber=\count153
-\c@internallinenumbers=\count154
+\c@linenumber=\count169
+\c@pagewiselinenumber=\count170
+\c@LN@truepage=\count171
+\c@internallinenumber=\count172
+\c@internallinenumbers=\count173
 \quotelinenumbersep=\dimen167
 \bframerule=\dimen168
 \bframesep=\dimen169
 \bframebox=\box38
 LaTeX Info: Redefining \\ on input line 3056.
 )
-\c@FV@TrueTabGroupLevel=\count155
-\c@FV@TrueTabCounter=\count156
+\c@FV@TrueTabGroupLevel=\count174
+\c@FV@TrueTabCounter=\count175
 \FV@TabBox@Group=\box39
-\FV@TmpLength=\skip63
-\c@FV@HighlightLinesStart=\count157
-\c@FV@HighlightLinesStop=\count158
-\FV@LoopCount=\count159
+\FV@TmpLength=\skip65
+\c@FV@HighlightLinesStart=\count176
+\c@FV@HighlightLinesStop=\count177
+\FV@LoopCount=\count178
 \FV@NCharsBox=\box40
 \FV@BreakIndent=\dimen170
-\FV@BreakIndentNChars=\count160
+\FV@BreakIndentNChars=\count179
 \FV@BreakSymbolSepLeft=\dimen171
-\FV@BreakSymbolSepLeftNChars=\count161
+\FV@BreakSymbolSepLeftNChars=\count180
 \FV@BreakSymbolSepRight=\dimen172
-\FV@BreakSymbolSepRightNChars=\count162
+\FV@BreakSymbolSepRightNChars=\count181
 \FV@BreakSymbolIndentLeft=\dimen173
-\FV@BreakSymbolIndentLeftNChars=\count163
+\FV@BreakSymbolIndentLeftNChars=\count182
 \FV@BreakSymbolIndentRight=\dimen174
-\FV@BreakSymbolIndentRightNChars=\count164
-\c@FancyVerbLineBreakLast=\count165
+\FV@BreakSymbolIndentRightNChars=\count183
+\c@FancyVerbLineBreakLast=\count184
 \FV@LineBox=\box41
 \FV@LineIndentBox=\box42
 )
@@ -870,14 +1074,14 @@ Package: catchfile 2016/05/16 v1.7 Catch the contents of a file (HO)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\xstring\xstring.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\xstring\xstring.tex"
 \@xs@message=\write4
-\integerpart=\count166
-\decimalpart=\count167
+\integerpart=\count185
+\decimalpart=\count186
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\framed\framed.sty"
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
-\OuterFrameSep=\skip64
+\OuterFrameSep=\skip66
 \fb@frw=\dimen175
 \fb@frh=\dimen176
 \FrameRule=\dimen177
@@ -886,33 +1090,16 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \minted@appexistsfile=\read2
 \minted@bgbox=\box43
 \minted@code=\write5
-\c@minted@FancyVerbLineTemp=\count168
-\c@minted@pygmentizecounter=\count169
+\c@minted@FancyVerbLineTemp=\count187
+\c@minted@pygmentizecounter=\count188
 \@float@every@listing=\toks39
-\c@listing=\count170
+\c@listing=\count189
 )
 runsystem(if not exist _minted-main mkdir _minted-main)...executed.
 
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fundus-calligra\calligra.sty"
 Package: calligra 2012/04/10 v1.9 LaTeX package calligra
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package xcolor Info: Driver file: pdftex.def on input line 225.
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
-Package xcolor Info: Model `RGB' extended on input line 1364.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
 runsystem(for ^%i in (pygmentize.exe pygmentize.bat pygmentize.cmd) do set > ma
 in.aex <nul: /p x=^%~$PATH:i>> main.aex)...executed.
@@ -941,18 +1128,25 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
- ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 6.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 6.
+
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count171
+\scratchcounter=\count190
 \scratchdimen=\dimen179
 \scratchbox=\box44
-\nofMPsegments=\count172
-\nofMParguments=\count173
+\nofMPsegments=\count191
+\nofMParguments=\count192
 \everyMPshowfont=\toks40
-\MPscratchCnt=\count174
+\MPscratchCnt=\count193
 \MPscratchDim=\dimen180
-\MPnumerator=\count175
-\makeMPintoPDFobject=\count176
+\MPnumerator=\count194
+\makeMPintoPDFobject=\count195
 \everyMPtoPDFconversion=\toks41
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -969,14 +1163,6 @@ G,.JBIG2,.JB2,.eps]
 )
 LaTeX Info: Redefining \it@ocap on input line 6.
 LaTeX Info: Redefining \it@ccap on input line 6.
-
-
-File italian.ldf warning: 
-italian.ldf    With OT1 encoding guillemets are poorly faked
-italian.ldf    Use T1 encoding
-italian.ldf    or specify a font with command \CaporaliFrom
-italian.ldf    See the documentation concerning the babel-italian typesetting 
-italian.ldf    on input line 6.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1021,7 +1207,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count177
+\c@section@level=\count196
 )
 LaTeX Info: Redefining \ref on input line 6.
 LaTeX Info: Redefining \pageref on input line 6.
@@ -1132,12 +1318,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--61
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 61.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 61.
 
 Underfull \hbox (badness 10000) in paragraph at lines 68--96
 
@@ -1158,10 +1338,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 97--106
 
  []
 
-[9] [10]) (Capitoli/Introduzione/Sezioni/StudiPreliminari.tex
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 6.
- [11])) [12]
+[9] [10]) (Capitoli/Introduzione/Sezioni/StudiPreliminari.tex [11])) [12]
 Capitolo 2.
 (Capitoli/StatoDellArte/StatoDellArte.tex [13
 
@@ -1174,9 +1351,9 @@ Capitolo 3.
 (Capitoli/Algoritmo/Sezioni/MatriceDelleDistanze.tex [17
 
 ] [18]
-Overfull \hbox (8.91167pt too wide) in paragraph at lines 11--12
-[] []\OT1/cmr/bx/n/12 Di-stan-za eu-cli-dea mo-no--di-men-sio-na-le[] \OT1/cmr/
-m/n/12 ta-le fun-zio-ne vie-ne uti-liz-za-ta quan-
+Overfull \hbox (8.8175pt too wide) in paragraph at lines 11--12
+[] []\T1/cmr/bx/n/12 Di-stan-za eu-cli-dea mo-no--di-men-sio-na-le[] \T1/cmr/m/
+n/12 ta-le fun-zio-ne vie-ne uti-liz-za-ta quan-
  []
 
 [19] [20]
@@ -1195,7 +1372,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
 
-<Immagini/Lattice.png, id=433, 407.121pt x 336.0555pt>
+<Immagini/Lattice.png, id=446, 407.121pt x 336.0555pt>
 File: Immagini/Lattice.png Graphic file (type png)
 <use Immagini/Lattice.png>
 Package pdftex.def Info: Immagini/Lattice.png  used on input line 27. on input 
@@ -1208,36 +1385,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--30
  []
 
 [23 <./Immagini/Lattice.png>]
-<Immagini/Lattice-taglio.png, id=438, 407.121pt x 343.2825pt>
+<Immagini/Lattice-taglio.png, id=451, 496.85625pt x 336.0555pt>
 File: Immagini/Lattice-taglio.png Graphic file (type png)
 <use Immagini/Lattice-taglio.png>
 Package pdftex.def Info: Immagini/Lattice-taglio.png  used on input line 31. on
  input line 31.
-Package pdftex.def Info: Requested size: 244.27449pt x 205.97107pt on input lin
+Package pdftex.def Info: Requested size: 298.11604pt x 201.63484pt on input lin
 e 31.
+ [24]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 35.
 
-Underfull \hbox (badness 3780) in paragraph at lines 35--35
-[]\OT1/cmr/bx/n/12 Algorithm 1 \OT1/cmr/m/n/12 ge-ne-ra-te-Su-per-Se-tAt-tri-bu
--tes(Set \OT1/cmr/bx/n/12 Le-ve-lAt-tri-bu-tes\OT1/cmr/m/n/12 , Set[]
+Underfull \hbox (badness 3815) in paragraph at lines 35--35
+[]\T1/cmr/bx/n/12 Algorithm 1 \T1/cmr/m/n/12 ge-ne-ra-te-Su-per-Se-tAt-tri-bu-t
+es(Set \T1/cmr/bx/n/12 Le-ve-lAt-tri-bu-tes\T1/cmr/m/n/12 , Set[]
  []
 
 
-Overfull \hbox (35.58531pt too wide) in paragraph at lines 52--53
-[] \OT1/cmr/m/it/12 new-Co-lum-nE-qual-Set\OT1/cmr/m/n/12 [$\OML/cmm/m/it/12 cc
-Index$\OT1/cmr/m/n/12 ]=\OT1/cmr/m/it/12 columnEqualSet[j]\OT1/cmr/m/n/12 .GETE
-LEMENTS() 
+Overfull \hbox (35.49019pt too wide) in paragraph at lines 52--53
+[] \T1/cmr/m/it/12 new-Co-lum-nE-qual-Set\T1/cmr/m/n/12 [$\OML/cmm/m/it/12 ccIn
+dex$\T1/cmr/m/n/12 ]=\T1/cmr/m/it/12 columnEqualSet[j]\T1/cmr/m/n/12 .GETELEMEN
+TS() 
  []
 
-)) [24 <./Immagini/Lattice-taglio.png>] [25] [26] [27]
+)) [25 <./Immagini/Lattice-taglio.png>] [26] [27]
 Capitolo 4.
 (Capitoli/Implementazione/Implementazione.tex
-(Capitoli/Implementazione/Sezioni/TecnologieUtilizzate.tex [28
+(Capitoli/Implementazione/Sezioni/TecnologieUtilizzate.tex
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 12.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+) [28
 
 ])
 (Capitoli/Implementazione/Sezioni/StrutturaDelProgetto.tex [29]
-<Immagini/StrutturaProgetto.png, id=471, 238.8925pt x 259.97125pt>
+<Immagini/StrutturaProgetto.png, id=484, 238.8925pt x 259.97125pt>
 File: Immagini/StrutturaProgetto.png Graphic file (type png)
 <use Immagini/StrutturaProgetto.png>
 Package pdftex.def Info: Immagini/StrutturaProgetto.png  used on input line 8. 
@@ -1245,7 +1428,7 @@ on input line 8.
 Package pdftex.def Info: Requested size: 238.8919pt x 259.97061pt on input line
  8.
  [30] [31 <./Immagini/StrutturaProgetto.png>]
-<Immagini/PackageRFD.png, id=482, 217.81375pt x 104.39pt>
+<Immagini/PackageRFD.png, id=495, 217.81375pt x 104.39pt>
 File: Immagini/PackageRFD.png Graphic file (type png)
 <use Immagini/PackageRFD.png>
 Package pdftex.def Info: Immagini/PackageRFD.png  used on input line 36. on inp
@@ -1258,27 +1441,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--39
  []
 
 (_minted-main/default-pyg-prefix.pygstyle) (_minted-main/monokay.pygstyle)
-(_minted-main/6F22A472C5E40FB451BACC36AFA6F7C714B90EA1B44A4839817817CA92FB6320.
+(_minted-main/143DC54A6E3ED9E6E8F8B213CB5443CA14B90EA1B44A4839817817CA92FB6320.
 pygtex
-LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <12> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 11.
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <12> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 12.
 )
 Package hyperref Info: bookmark level for unknown listing defaults to 0 on inpu
 t line 45.
- [32 <./Immagini/PackageRFD.png>]
-(_minted-main/5F71973D089C897CC86A4D30E82BF5CBED6FBDB796052188FD21AF841CEEA15F.
-pygtex) [33] [34]
-(_minted-main/5F94FFD7147874486165774F0D8CCEF518176DA4D2FA4AF197580810A8E6BF30.
+ [32 <./Immagini/PackageRFD.png>] [33]
+(_minted-main/69FF953B4A53BB1CFBEAD615C0C0EF4FED6FBDB796052188FD21AF841CEEA15F.
+pygtex) [34]
+(_minted-main/89436AA12CC107FF4841AF5EF50AD4B518176DA4D2FA4AF197580810A8E6BF30.
 pygtex)
-(_minted-main/77E2F257E1E2CAF72DDAEFD491D204908F40FDE91F4C35283A887C10A4D2CF0E.
-pygtex) [35]
-(_minted-main/0D920E5E75D261FEA8DDE21197220DC56413BA6374D7B01DD001853C42A26EAB.
+(_minted-main/78898281B92B14E05BCB467AFCFF97558F40FDE91F4C35283A887C10A4D2CF0E.
+pygtex
+LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 3.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmtt.fd"
+File: ts1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)) [35]
+(_minted-main/5AAA55F069B47D156277406991A8A0966413BA6374D7B01DD001853C42A26EAB.
 pygtex) [36]
-(_minted-main/6EC5B6E85658367502D65AE2C83B638C3F2B66B235FCA025955840E156F6BFF8.
-pygtex)
-(_minted-main/FA86D793139BC1196595A771EFF2E47B3FED8346384FCDFAC2D6465B5ED6426E.
+(_minted-main/D6E151F52E7B4EE644C45C2E8598ACD03F2B66B235FCA025955840E156F6BFF8.
 pygtex) [37]
-<Immagini/PackageActors.png, id=511, 226.34563pt x 103.38625pt>
+(_minted-main/9AEC94BAB0BE4E136EC65C02D3D0FC523FED8346384FCDFAC2D6465B5ED6426E.
+pygtex) [38]
+<Immagini/PackageActors.png, id=529, 226.34563pt x 103.38625pt>
 File: Immagini/PackageActors.png Graphic file (type png)
 <use Immagini/PackageActors.png>
 Package pdftex.def Info: Immagini/PackageActors.png  used on input line 153. on
@@ -1292,73 +1479,74 @@ Underfull \hbox (badness 10000) in paragraph at lines 157--170
 
  []
 
-[38 <./Immagini/PackageActors.png>]
-(_minted-main/F76E0F93337326FBF1AE7CB5B1070C4D3A1EAF714CCB53C2BA0E6102E2543DBB.
-pygtex) [39]
-(_minted-main/016A4D96B00472AF1D0435DDCD0DE9F7B30D43326ABFC2803EBCF62C56578267.
+[39 <./Immagini/PackageActors.png>]
+(_minted-main/CDD9E8DF426E9A361AD979BF2166D7DA3A1EAF714CCB53C2BA0E6102E2543DBB.
+pygtex)
+(_minted-main/D75A5A045F59207584C50700B0B7583CB30D43326ABFC2803EBCF62C56578267.
 pygtex)
 Underfull \hbox (badness 10000) in paragraph at lines 179--185
 
  []
 
-
-(_minted-main/930AEA885EF0709486B18EB242C725D2F7F9D1844008695A526F8EFE9DE18CB6.
+[40]
+(_minted-main/885E5CA780BC7B733835B91398AB5356F7F9D1844008695A526F8EFE9DE18CB6.
 pygtex)
 Underfull \hbox (badness 10000) in paragraph at lines 186--193
 
  []
 
-[40]
+
 (_minted-main/C4EDC69EC69304D1DDB67B492175DA4194707F873E3FED43AEAEDA6F2B50B188.
-pygtex)
-<Immagini/PackageUtility.png, id=527, 208.78pt x 169.13188pt>
+pygtex) [41]
+<Immagini/PackageUtility.png, id=545, 208.78pt x 169.13188pt>
 File: Immagini/PackageUtility.png Graphic file (type png)
 <use Immagini/PackageUtility.png>
 Package pdftex.def Info: Immagini/PackageUtility.png  used on input line 205. o
 n input line 205.
 Package pdftex.def Info: Requested size: 208.77946pt x 169.13145pt on input lin
 e 205.
- [41]) (Capitoli/Implementazione/Sezioni/Installazione.tex [42 <./Immagini/Pack
-ageUtility.png>])) [43]
+) (Capitoli/Implementazione/Sezioni/Installazione.tex [42 <./Immagini/PackageUt
+ility.png>])) [43]
 Capitolo 5.
 (Capitoli/Conclusioni/Conclusioni.tex
 (Capitoli/Conclusioni/Sezioni/LavoriFuturi.tex [44
 
 ])
 (Capitoli/Conclusioni/Sezioni/Riflessioni.tex)
-(Capitoli/Conclusioni/Sezioni/Testing.tex [45] [46]
+(Capitoli/Conclusioni/Sezioni/Testing.tex [45]
 Underfull \hbox (badness 10000) in paragraph at lines 13--26
 
  []
 
+[46]
+Overfull \hbox (18.22673pt too wide) in paragraph at lines 32--42
+ [][] 
+ []
 
-Overfull \hbox (18.30037pt too wide) in paragraph at lines 32--42
+
+Overfull \hbox (18.22673pt too wide) in paragraph at lines 49--59
  [][] 
  []
 
 [47]
-Overfull \hbox (18.30037pt too wide) in paragraph at lines 49--59
+Overfull \hbox (18.22673pt too wide) in paragraph at lines 66--76
  [][] 
  []
 
 
-Overfull \hbox (18.30037pt too wide) in paragraph at lines 66--76
+Overfull \hbox (18.22673pt too wide) in paragraph at lines 84--94
  [][] 
  []
 
 [48]
-Overfull \hbox (18.30037pt too wide) in paragraph at lines 84--94
- [][] 
- []
-
-<Immagini/GraficoEchocardiogram.png, id=566, 679.53876pt x 590.205pt>
+<Immagini/GraficoEchocardiogram.png, id=580, 681.54625pt x 596.2275pt>
 File: Immagini/GraficoEchocardiogram.png Graphic file (type png)
 <use Immagini/GraficoEchocardiogram.png>
 Package pdftex.def Info: Immagini/GraficoEchocardiogram.png  used on input line
  106. on input line 106.
-Package pdftex.def Info: Requested size: 271.81068pt x 236.0778pt on input line
- 106.
-[49])) [50 <./Immagini/GraficoEchocardiogram.png>]
+Package pdftex.def Info: Requested size: 272.61366pt x 238.48677pt on input lin
+e 106.
+ [49])) [50 <./Immagini/GraficoEchocardiogram.png>]
 Capitolo 6.
 (Capitoli/Ringraziamenti/Ringraziamenti.tex) [51
 
@@ -1373,16 +1561,16 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 51.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 51.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 51.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F06041511152F58D33376C61AFC822C2;2876.
+(rerunfilecheck)             Checksum: 5B904671772379F3A27C5FF0AC0D48C6;2871.
  ) 
 Here is how much of TeX's memory you used:
- 14416 strings out of 493323
- 235355 string characters out of 3139066
- 403791 words of memory out of 3000000
- 17401 multiletter control sequences out of 15000+200000
- 15746 words of font info for 59 fonts, out of 3000000 for 9000
+ 15120 strings out of 493323
+ 246234 string characters out of 3139066
+ 508190 words of memory out of 3000000
+ 18056 multiletter control sequences out of 15000+200000
+ 26928 words of font info for 69 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,14n,53p,1551b,542s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,14n,53p,1562b,566s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -1395,27 +1583,42 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 , replaced by a fixed one
 
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmitt10.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr1
-2.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pf
-b>
-Output written on main.pdf (62 pages, 718028 bytes).
+ <C:\Users\raffa\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tc
+it1200.pk> <C:\Users\raffa\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
+\dpi600\ecit1200.pk> <C:\Users\raffa\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\j
+knappen\ec\dpi600\ectt1200.pk> <C:\Users\raffa\AppData\Local\MiKTeX\2.9\fonts\p
+k\ljfour\jknappen\ec\dpi600\ecti1000.pk> <C:\Users\raffa\AppData\Local\MiKTeX\2
+.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbi1200.pk> <C:\Users\raffa\AppData\Loca
+l\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk> <C:\Users\raffa\Ap
+pData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcti1200.pk> <C:\User
+s\raffa\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk
+> <C:\Users\raffa\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\e
+crm0700.pk> <C:\Users\raffa\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\e
+c\dpi600\ecrm0800.pk> <C:\Users\raffa\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\
+jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\raffa\AppData\Local\MiKTeX\2.9\fonts\
+pk\ljfour\jknappen\ec\dpi600\ecrm2488.pk> <C:\Users\raffa\AppData\Local\MiKTeX\
+2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2074.pk> <C:\Users\raffa\AppData\Loc
+al\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk> <C:\Users\raffa\A
+ppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk> <C:\Use
+rs\raffa\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.p
+k> <C:\Users\raffa\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
+ecbx1200.pk> <C:\Users\raffa\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
+ec\dpi600\ecbx1440.pk> <C:\Users\raffa\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
+\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\raffa\AppData\Local\MiKTeX\2.9\fonts
+\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (62 pages, 806952 bytes).
 PDF statistics:
- 686 PDF objects out of 1000 (max. 8388607)
- 151 named destinations out of 1000 (max. 500000)
+ 1318 PDF objects out of 1440 (max. 8388607)
+ 152 named destinations out of 1000 (max. 500000)
  385 words of extra memory for PDF output out of 10000 (max. 10000000)
 

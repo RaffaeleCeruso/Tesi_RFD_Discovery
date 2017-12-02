@@ -5,6 +5,8 @@
 return receiveBuilder().match(CreateConcurrentDM.class, c->
 {
    this.getSender().tell(new ReceivePartDM(DistanceMatrix
-          .concurrentCreateMatrix(c.inizio,c.dimensione,c.completeDF)),
-                                                         this.getSelf());
+          .concurrentCreateMatrix(c.inizio,
+					              c.dimensione,
+					          	  c.completeDF)),
+            					  this.getSelf());
 }).build();

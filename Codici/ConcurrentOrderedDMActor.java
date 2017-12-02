@@ -3,6 +3,7 @@ return receiveBuilder()
 .match(CreateOrderedDM.class, c->
 {
      this.getSender().tell(new ReceiveOrderedDM
-        (DistanceMatrix.createOrderedDM(c.indiceRHS, c.dm)),
-                                               this.getSelf());
+        (DistanceMatrix.createOrderedDM(c.indiceRHS, 
+        								c.dm)),
+                                       	this.getSelf());
 }).build();

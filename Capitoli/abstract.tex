@@ -1,11 +1,11 @@
-Le basi di dati sono utilizzate in larga scala in moltissimi aspetti dell'ambito tecnologico e per tale motivo durante la loro progettazione ci sono aspetti essenziali da prendere in considerazione per assicurare un servizio quanto più efficiente possibile.
-La qualità dei dati contenuti è un servizio che di certo una buona base di dati deve garantire, motivo per cui la \emph{data quality} è divenuta una materia estremamente interessante negli ultimi anni. 
-Al fine di ridurre anomalie ed inconsistenze ci vengono incontro le \emph{Dipendenze funzionali}, utilizzate ampiamente per stabilire vincoli di integrità tra i dati.
+Nella progettazione di una base di dati ci sono aspetti essenziali da prendere in considerazione per assicurare un servizio quanto più efficiente possibile.
+Considerato il netto aumento del flusso di dati degli ultimi anni,  la \emph{data quality} è divenuta una materia estremamente interessante vista la cospicua presenza di dati "sporchi" nelle basi di dati.
+Per ridurre anomalie ed inconsistenze ci vengono incontro le \emph{Dipendenze funzionali}, utilizzate ampiamente per stabilire vincoli di integrità tra i dati.
 La grande mole di dati, però, ha reso necessario un riadattamento delle dipendenze funzionali rendendole in grado di catturare inconsistenze più ampie nei dati. 
-Le \emph{Dipendenze funzionali rilassate o approssimate} \textbf{(RFD)} sono da considerarsi come una naturale evoluzione o generalizzazione delle \emph{dipendenze funzionali canoniche}.
-Il concetto più importante introdotto dalle RFD è quello della \emph{similarità}.
-Nelle dipendenze funzionali classiche esisteva soltanto il concetto di uguaglianza tra dati, nelle RFD espandiamo questo concetto ad una similarità e questo ci permetterà di coprire una quantità di dati maggiore.
-Tuttavia le RFD possono fornire vantaggi solo se possono essere scoperte automaticamente.
-Il lavoro di tesi si è basato su questo ultimo concetto di ottenere le RFD in seguito ad una procedura automatizzata.
-Durante le varie fasi di studio si è pensato ed implementato un algoritmo che permette, attraverso tre fasi intermedie, la scoperta di RFD di un dataset dato come input.
-Per questo lavoro di tesi mostreremo l'idea dell'algoritmo generale ed entreremo nel dettaglio della seconda fase di sviluppo(Minimality), mostrando, infine, i risultati della sperimentazione.
+Le \emph{Dipendenze funzionali rilassate o approssimate} \textbf{(RFD)} sono da considerarsi come una naturale evoluzione o generalizzazione delle \emph{dipendenze funzionali canoniche}. Infatti,
+il concetto più importante introdotto dalle RFD è quello della \emph{similarità}.
+Mentre nelle dipendenze funzionali classiche esiste soltanto il vincolo di uguaglianza tra dati, nelle RFD questo vincolo viene esteso introducendo il confronto approssimato tramite funzioni di similarità, questo ci permetterà di coprire una quantità di dati maggiore.
+Tuttavia le RFD possono fornire vantaggi solo se possono essere scoperte automaticamente dai dati.
+Il lavoro di tesi sifocalizza su quest'ultimo aspetto di recuperare le RFD attraverso una procedura automatizzata.
+L'algoritmo proposto è in grado di scoprire le RFD presenti in un dataset fornito come input attraverso tre differenti fasi. La prima fase, chiamata \emph{Feasibility}, si occupa di estrarre un insiemi di tuple dal set rilevanti per l'identificazione delle RFD. La seconda fase, chiamata \emph{Minimality}, si occupa di minimizzare il numero di pattern ottenuti dalla prima fase. Infine, l'ultima fase, chiamata \emph{Generation}, estrae le RFD attraverso la verifica di opportune regole.
+Per questo lavoro di tesi mostreremo l'idea dell'algoritmo generale ed entreremo nel dettaglio della seconda fase di sviluppo(Minimality), mostrando, infine, i risultati sperimentali ottenuti su differenti dataset.

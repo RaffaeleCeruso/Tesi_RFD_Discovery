@@ -4,7 +4,8 @@
 \PYG{o}{.}\PYG{n+na}{match}\PYG{o}{(}\PYG{n}{CreateOrderedDM}\PYG{o}{.}\PYG{n+na}{class}\PYG{o}{,} \PYG{n}{c}\PYG{o}{\PYGZhy{}\PYGZgt{}}
 \PYG{o}{\PYGZob{}}
      \PYG{k}{this}\PYG{o}{.}\PYG{n+na}{getSender}\PYG{o}{().}\PYG{n+na}{tell}\PYG{o}{(}\PYG{k}{new} \PYG{n}{ReceiveOrderedDM}
-        \PYG{o}{(}\PYG{n}{DistanceMatrix}\PYG{o}{.}\PYG{n+na}{createOrderedDM}\PYG{o}{(}\PYG{n}{c}\PYG{o}{.}\PYG{n+na}{indiceRHS}\PYG{o}{,} \PYG{n}{c}\PYG{o}{.}\PYG{n+na}{dm}\PYG{o}{)),}
-                                               \PYG{k}{this}\PYG{o}{.}\PYG{n+na}{getSelf}\PYG{o}{());}
+        \PYG{o}{(}\PYG{n}{DistanceMatrix}\PYG{o}{.}\PYG{n+na}{createOrderedDM}\PYG{o}{(}\PYG{n}{c}\PYG{o}{.}\PYG{n+na}{indiceRHS}\PYG{o}{,} 
+        								\PYG{n}{c}\PYG{o}{.}\PYG{n+na}{dm}\PYG{o}{)),}
+                                       	\PYG{k}{this}\PYG{o}{.}\PYG{n+na}{getSelf}\PYG{o}{());}
 \PYG{o}{\PYGZcb{}).}\PYG{n+na}{build}\PYG{o}{();}
 \end{Verbatim}

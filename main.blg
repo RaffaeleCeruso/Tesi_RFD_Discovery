@@ -1,8 +1,5 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
 The style file: ieeetr.bst
 Database file #1: bibliografia.bib
-Too many commas in name 1 of "Atzeni P., Ceri S., Fraternali P., Paraboschi S., Torlone R." for entry libroCeri
-while executing---line 969 of file ieeetr.bst
-Too many commas in name 1 of "Atzeni P., Ceri S., Fraternali P., Paraboschi S., Torlone R." for entry libroCeri
-while executing---line 969 of file ieeetr.bst
-(There were 2 error messages)
+Warning--empty journal in onDiscovery
+(There was 1 warning)

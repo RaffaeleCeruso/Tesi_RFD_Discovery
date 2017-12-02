@@ -29,7 +29,7 @@ $$lev_{a,b}(i,j) =
 \end{cases}
 $$
 dove $1_{(a_i \neq b_j)}$ è una \textit{funzione indicatrice}, uguale a 0 se $a_i = b_j$ e uguale a 1 altrimenti, e $lev_{a,b}(i,j)$ è la distanza di Levenshtein  tra i primi $i$ caratteri di $a$ e i primi $j$ caratteri di $b$;
-\paragraph{Distanza tra date} quando gli attributi da confrontare sono di tipo data (a prescindere dal formato di questa), viene utilzzata una semplice funzione di distanza che permette di calcolare i secondi trascorsi dalla data meno recente a quella più recente. 
+\paragraph{Distanza tra date} quando gli attributi da confrontare sono di tipo data (a prescindere dal formato di questa), viene utilzzata una semplice funzione di distanza che permette di calcolare i giorni trascorsi dalla data meno recente a quella più recente. 
 \subsection{Calcolo della matrice delle distanze}
 Dal confronto tra tutte le coppie di tuple della relazione ricaviamo una tabella delle distanze $DT$ tale che $|DT| = \binom{n}{2} = \frac{n(n-1)}{2}$.  \\ 
 La tabella delle distanze (supponendo senza perdere di generalità di utilizzare l'attributo $X_{k+1}$ come attributo RHS) ricavata è quindi:

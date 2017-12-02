@@ -6,5 +6,7 @@
  * @param dm
  * @return boolean
  */
-	private static boolean dominance(int tupla1, int tupla2,
-	                                DataFrame<Object> dm,int rhs)
+	private static boolean dominance(int tupla1,
+									 int tupla2,
+	                                 DataFrame<Object> dm,
+	                                 int rhs)
